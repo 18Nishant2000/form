@@ -1,8 +1,6 @@
 import React from 'react';
-// eslint-disable-next-line
 import Button from "react-bootstrap/Button"
-// eslint-disable-next-line
-import Frost from "./FrostedGlass.css"
+import "./FrostedGlass.css"
 import Form from "react-bootstrap/Form"
 import Container from 'react-bootstrap/Container'
 import Row from "react-bootstrap/Row"
@@ -19,20 +17,17 @@ function App() {
       <div className="mt-4 mb-4 mr-2 ml-2">
         <Form>
           <h1 className="text-white">Template A1: Syllabus for Theory Courses (SAMPLE)</h1> <hr />
-          <Row>
-            <Col>
+         
               <Form.Group>
                 <Form.Label className="text-white">School</Form.Label>
-                <Form.Control placeholder="First name" />
+                <Form.Control placeholder="School" />
               </Form.Group>
-            </Col>
-            <Col>
+           
               <Form.Group>
                 <Form.Label className="text-white">Program</Form.Label>
-                <Form.Control placeholder="Last name"></Form.Control>
+                <Form.Control placeholder="Program"></Form.Control>
               </Form.Group>
-            </Col>
-          </Row>
+            
 
 
           <Form.Group controlId="Program">
@@ -40,21 +35,18 @@ function App() {
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
 
-          <Row>
-            <Col>
+        
+         
               <Form.Group controlId="Program">
                 <Form.Label className="text-white">Course Code</Form.Label>
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
-            </Col>
-            <Col>
+            
               <Form.Group controlId="Program">
                 <Form.Label className="text-white">Course Title</Form.Label>
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
-            </Col>
-          </Row>
-
+            
           <Form.Group controlId="Program">
             <Form.Label className="text-white">Credits</Form.Label>
             <Form.Control type="password" placeholder="Password" />
