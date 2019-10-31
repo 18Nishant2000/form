@@ -9,6 +9,17 @@ import DropdownButton from "react-bootstrap/DropdownButton"
 import Dropdown from "react-bootstrap/Dropdown"
 import './App.css';
 import FormGroup from 'react-bootstrap/FormGroup';
+import s from './main'
+
+
+
+
+function onsave(){
+    console.log(
+      window.alert("Siddharth")
+    );
+}
+
 
 function App() {
   return (
@@ -18,7 +29,7 @@ function App() {
         <Form>
           <h1 className="text-white">Template A1: Syllabus for Theory Courses (SAMPLE)</h1> <hr />
          
-              <Form.Group>
+              <Form.Group id="school">
                 <Form.Label className="text-white">School</Form.Label>
                 <Form.Control placeholder="School" />
               </Form.Group>
@@ -84,7 +95,7 @@ function App() {
           </FormGroup>
 
           <div align="center" >
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" onClick={onsave}>
               Submit
           </Button>
           </div>
