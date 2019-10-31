@@ -86,8 +86,6 @@ function App() {
               </DropdownButton>
             </div>
           </FormGroup>
-
-
           <FormGroup>
             <Form.Label className="text-white">Course Objective</Form.Label>
             <Form.Control as="textarea" aria-label="With textarea" />
