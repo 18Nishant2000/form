@@ -5,8 +5,6 @@ import Form from "react-bootstrap/Form"
 import Container from 'react-bootstrap/Container'
 import Row from "react-bootstrap/Row"
 import Col from 'react-bootstrap/Col'
-import DropdownButton from "react-bootstrap/DropdownButton"
-import Dropdown from "react-bootstrap/Dropdown"
 import FormGroup from 'react-bootstrap/FormGroup';
 
 function onsave() {
@@ -89,22 +87,22 @@ class App extends React.Component {
             <br />
 
 
-            <div align="center">
-              <Form.Group
-              // onChange={this.onPickColor.bind(this)}
-              // inputRef={el => this.inputEl = el}
-              // componentClass="select" placeholder="select"
-              >
 
-                <Form.Label className="text-white" id="courseStatus">Course Status</Form.Label>
-                <DropdownButton id="dropdown-basic-button" title="Course Status">
-                  <Dropdown.Item href="#/action-1">Core</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">Elective</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Open Elective </Dropdown.Item>
-                </DropdownButton>
+            <Form.Group
+            // onChange={this.onPickColor.bind(this)}
+            // inputRef={el => this.inputEl = el}
+            // componentClass="select" placeholder="select"
+            >
 
-              </Form.Group>
-            </div>
+              <Form.Label className="text-white" id="courseStatus">Course Status</Form.Label>
+              <Form.Control as="select"> title="Course Status">
+                  <option>Core</option>
+                <option>Elective</option>
+                <option>Open Elective</option>
+              </Form.Control>
+
+            </Form.Group>
+
 
             <FormGroup>
               <Form.Label className="text-white">Course Objective</Form.Label>
@@ -123,14 +121,40 @@ class App extends React.Component {
               <Form.Label className="text-white">Course Description</Form.Label>
               <Form.Control as="textarea" placeholder="Descrption of Course" aria-label="With textarea" />
             </FormGroup>
-            
-            
+
+
             <FormGroup>
-              <Form.Label className="text-white">Outline Syllabus</Form.Label>
-              <Form.Control as="textarea" placeholder="Descrption of Course" aria-label="With textarea" />
+              <Form.Label className="text-white"><h3><b>Outline Syllabus</b> </h3> </Form.Label>
+              <Form.Control as="textarea" placeholder="Unit 1" aria-label="With textarea" />
+              <br />
+              <Form.Control as="textarea" placeholder="Unit 2" aria-label="With textarea" />
+              <br />
+              <Form.Control as="textarea" placeholder="Unit 3" aria-label="With textarea" />
+              <br />
+              <Form.Control as="textarea" placeholder="Unit 4" aria-label="With textarea" />
             </FormGroup>
-            
-            
+
+            <FormGroup className="text-white" >
+              <Form.Label >Weightage Distribution </Form.Label>
+              <Row >
+                <Col >
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="60% - CA" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0% -  MTE" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="40% - ETE" />
+                </Col>
+              </Row>
+            </FormGroup>
+
+            <FormGroup>
+              <Form.Label className="text-white">Textbooks </Form.Label>
+              <Form.Control as="textarea" placeholder="Reference Books" aria-label="With textarea" />
+            </FormGroup>
+
+            <br />
             <div align="center" >
               <Button variant="primary" type="submit" onClick={onsave}>
                 Submit
@@ -138,7 +162,7 @@ class App extends React.Component {
             </div>
           </Form>
         </div>
-      </Container>
+      </Container >
     );
   }
 }
