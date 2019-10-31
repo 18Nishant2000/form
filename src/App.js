@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from "react-bootstrap/Button"
-import "./FrostedGlass.css"
+import "./Glass.css"
 import Form from "react-bootstrap/Form"
 import Container from 'react-bootstrap/Container'
 import Row from "react-bootstrap/Row"
@@ -39,44 +39,39 @@ class App extends React.Component {
         <div className="mt-4 mb-4 mr-2 ml-2">
           <Form>
             <h2 className="text-white"><b>Syllabus for Theory Courses</b></h2> <hr />
-            <div>
-              <Form.Group>
-                <Form.Label className="text-white">School</Form.Label>
-                <Form.Control placeholder="School" id="school" />
-              </Form.Group>
-            </div>
-            <div>
-              <Form.Group>
-                <Form.Label className="text-white">Program</Form.Label>
-                <Form.Control placeholder="Program" id="program"></Form.Control>
-              </Form.Group>
-            </div>
 
-            <div>
-              <Form.Group controlId="Program">
-                <Form.Label className="text-white">Branch</Form.Label>
-                <Form.Control placeholder="Branch" id="branch" />
-              </Form.Group>
-            </div>
+            <Form.Group>
+              <Form.Label className="text-white">School</Form.Label>
+              <Form.Control placeholder="School" id="school" />
+            </Form.Group>
 
-            <div>
-              <Form.Group controlId="Program">
-                <Form.Label className="text-white">Course Code</Form.Label>
-                <Form.Control placeholder="Code" id="course_code" />
-              </Form.Group>
-            </div>
-            <div>
-              <Form.Group controlId="Program">
-                <Form.Label className="text-white">Course Title</Form.Label>
-                <Form.Control placeholder="Title" id="course_title" />
-              </Form.Group>
-            </div>
-            <div>
-              <Form.Group controlId="Program">
-                <Form.Label className="text-white">Credits</Form.Label>
-                <Form.Control type="autofill" placeholder="Credits" id="credits" />
-              </Form.Group>
-            </div>
+            <Form.Group>
+              <Form.Label className="text-white">Program</Form.Label>
+              <Form.Control placeholder="Program" id="program"></Form.Control>
+            </Form.Group>
+
+            <Form.Group controlId="Program">
+              <Form.Label className="text-white">Branch</Form.Label>
+              <Form.Control placeholder="Branch" id="branch" />
+            </Form.Group>
+
+            <Form.Group controlId="Program">
+              <Form.Label className="text-white">Course Code</Form.Label>
+              <Form.Control placeholder="Code" id="course_code" />
+            </Form.Group>
+
+
+            <Form.Group controlId="Program">
+              <Form.Label className="text-white">Course Title</Form.Label>
+              <Form.Control placeholder="Title" id="course_title" />
+            </Form.Group>
+
+
+            <Form.Group controlId="Program">
+              <Form.Label className="text-white">Credits</Form.Label>
+              <Form.Control type="autofill" placeholder="Credits" id="credits" />
+            </Form.Group>
+
             <Form.Group controlId="Program">
               <Form.Label className="text-white">Contact Hours (L-T-P)</Form.Label>
               <Row>
@@ -96,9 +91,10 @@ class App extends React.Component {
 
             <div align="center">
               <Form.Group
-                onChange={this.onPickColor.bind(this)}
-                inputRef={el => this.inputEl = el}
-                componentClass="select" placeholder="select">
+              // onChange={this.onPickColor.bind(this)}
+              // inputRef={el => this.inputEl = el}
+              // componentClass="select" placeholder="select"
+              >
 
                 <Form.Label className="text-white" id="courseStatus">Course Status</Form.Label>
                 <DropdownButton id="dropdown-basic-button" title="Course Status">
@@ -117,23 +113,28 @@ class App extends React.Component {
 
             <Form.Group controlId="Program">
               <Form.Label className="text-white">Course Outcomes</Form.Label>
-              <Form.Control as="textarea" type="autofill" placeholder="C01" id="C01" /> <br/>
-              <Form.Control as="textarea" type="autofill" placeholder="C02" id="C02" /> <br/>
-              <Form.Control as="textarea" type="autofill" placeholder="C03" id="C03" /> <br/>
-              <Form.Control as="textarea" type="autofill" placeholder="C04" id="C04" /> <br/>
+              <Form.Control as="textarea" type="autofill" placeholder="C01" id="C01" /> <br />
+              <Form.Control as="textarea" type="autofill" placeholder="C02" id="C02" /> <br />
+              <Form.Control as="textarea" type="autofill" placeholder="C03" id="C03" /> <br />
+              <Form.Control as="textarea" type="autofill" placeholder="C04" id="C04" />
             </Form.Group>
 
             <FormGroup>
               <Form.Label className="text-white">Course Description</Form.Label>
-              <Form.Control as="textarea" placeholder = "Descrption of Course" aria-label="With textarea" />
+              <Form.Control as="textarea" placeholder="Descrption of Course" aria-label="With textarea" />
             </FormGroup>
-
-
-
+            
+            
+            <FormGroup>
+              <Form.Label className="text-white">Outline Syllabus</Form.Label>
+              <Form.Control as="textarea" placeholder="Descrption of Course" aria-label="With textarea" />
+            </FormGroup>
+            
+            
             <div align="center" >
               <Button variant="primary" type="submit" onClick={onsave}>
                 Submit
-          </Button>
+                  </Button>
             </div>
           </Form>
         </div>
