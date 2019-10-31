@@ -14,9 +14,14 @@ import FormGroup from 'react-bootstrap/FormGroup';
 
 
 function onsave() {
-  console.log(
-    window.alert("Siddharth")
-  );
+  var  school=document.getElementById("school").value;
+  var  program=document.getElementById("program").value;
+  var  branch=document.getElementById("branch").value;
+  var  course_code=document.getElementById("course_code").value;
+  var  course_title=document.getElementById("course_title").value;
+  var  credits=document.getElementById("credits").value;
+
+  window.alert(school+" "+program+" "+branch+" "+course_code+" "+course_title+" "+credits);
 }
 
 
@@ -28,41 +33,41 @@ function App() {
         <Form>
           <h1 className="text-white">Template A1: Syllabus for Theory Courses (SAMPLE)</h1> <hr />
           <div>
-            <Form.Group id="school">
+            <Form.Group>
               <Form.Label className="text-white">School</Form.Label>
-              <Form.Control placeholder="School" />
+              <Form.Control placeholder="School" id="school"/>
             </Form.Group>
           </div>
           <div>
             <Form.Group>
               <Form.Label className="text-white">Program</Form.Label>
-              <Form.Control placeholder="Program"></Form.Control>
+              <Form.Control placeholder="Program" id="program"></Form.Control>
             </Form.Group>
           </div>
 
           <div>
             <Form.Group controlId="Program">
               <Form.Label className="text-white">Branch</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
+              <Form.Control  placeholder="Branch" id="branch"/>
             </Form.Group>
           </div>
 
           <div>
             <Form.Group controlId="Program">
               <Form.Label className="text-white">Course Code</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
+              <Form.Control  placeholder="Password" id="course_code"/>
             </Form.Group>
           </div>
           <div>
             <Form.Group controlId="Program">
               <Form.Label className="text-white">Course Title</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
+              <Form.Control  placeholder="Password" id="course_title" />
             </Form.Group>
           </div>
           <div>
             <Form.Group controlId="Program">
               <Form.Label className="text-white">Credits</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
+              <Form.Control type="autofill" placeholder="Credits" id="credits" />
             </Form.Group>
           </div>
           <Form.Group controlId="Program">
