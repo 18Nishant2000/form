@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "DYNAMICQ.C": "cpp",
-        "FCFS.C": "cpp"
+        "FCFS.C": "cpp",
+        "PRIORITY_SCHEDULING_ALGO.C": "cpp"
     }
 }

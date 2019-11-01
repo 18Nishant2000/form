@@ -2,7 +2,6 @@ import React from 'react';
 import Button from "react-bootstrap/Button"
 import "./Glass.css"
 import Form from "react-bootstrap/Form"
-import Container from 'react-bootstrap/Container'
 import Row from "react-bootstrap/Row"
 import Col from 'react-bootstrap/Col'
 import FormGroup from 'react-bootstrap/FormGroup';
@@ -20,7 +19,7 @@ function onsave() {
   var core = document.getElementById("core").value;
   var elective = document.getElementById("elective").value;
   var openelective = document.getElementById("openElective").value;
-  window.alert(school + " " + program + " " + branch + " " + course_code + " " + course_title + " " + credits + " " + l1 + " " + t2 + " " + p3 + " " +core+ " " + elective + " " + openelective );
+  window.alert(school + " " + program + " " + branch + " " + course_code + " " + course_title + " " + credits + " " + l1 + " " + t2 + " " + p3 + " " + core + " " + elective + " " + openelective);
 }
 
 
@@ -38,12 +37,12 @@ class App extends React.Component {
   render() {
     return (
 
-      <Container>
+      <div className = "container">
         <div className="mt-4 mb-4 mr-2 ml-2">
           <Form>
             <h2 className="text-white"><b>Syllabus for Theory Courses</b></h2> <hr />
 
-            <Form.Group>
+            <Form.Group >
               <Form.Label className="text-white">School</Form.Label>
               <Form.Control placeholder="School" id="school" />
             </Form.Group>
@@ -103,7 +102,7 @@ class App extends React.Component {
 
             <FormGroup>
               <Form.Label className="text-white">Course Objective</Form.Label>
-              <Form.Control as="textarea" placeholder = "Objectives" aria-label="With textarea" />
+              <Form.Control as="textarea" placeholder="Objectives" aria-label="With textarea" />
             </FormGroup>
 
             <Form.Group controlId="Program">
@@ -151,7 +150,64 @@ class App extends React.Component {
               <Form.Control as="textarea" placeholder="Reference Books" aria-label="With textarea" />
             </FormGroup>
 
+            <FormGroup>
+              <Form.Label className="text-white">PO and PSO mapping with level of strength for Course Name xxxx (Course Code yyyy)</Form.Label>
+              <Row >
+                <Col>
+                  <Form.Control type="text" id="1" placeholder="1" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="2" placeholder="2" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="3" placeholder="3" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="4" placeholder="4" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="5" placeholder="5" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="6" placeholder="6" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="6" placeholder="7" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="6" placeholder="8" />
+                </Col>      
+                </Row>
+                <br/>
+                <Row>
+              
+                <Col>
+                  <Form.Control type="text" id="6" placeholder="10" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="6" placeholder="11" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="6" placeholder="12" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="6" placeholder="13" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="6" placeholder="14" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="6" placeholder="15" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="6" placeholder="16" />
+                </Col>
+                <Col>
+                  <Form.Control type="text" id="6" placeholder="17" />
+                </Col>
+              </Row>
 
+            </FormGroup>
 
             <br />
             <div align="center" >
@@ -161,7 +217,7 @@ class App extends React.Component {
             </div>
           </Form>
         </div>
-      </Container >
+      </div >
     );
   }
 }
