@@ -74,17 +74,17 @@ class App extends React.Component {
               <Form.Label className="text-white">Contact Hours (L-T-P)</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="password" placeholder="L" />
+                  <Form.Control type="number" placeholder="L" />
                 </Col>
                 <Col>
-                  <Form.Control type="password" placeholder="T" />
+                  <Form.Control type="number" placeholder="T" />
                 </Col>
                 <Col>
-                  <Form.Control type="password" placeholder="P" />
+                  <Form.Control type="number" placeholder="P" />
                 </Col>
               </Row>
             </Form.Group>
-            <br />
+        
 
 
 
@@ -153,6 +153,8 @@ class App extends React.Component {
               <Form.Label className="text-white">Textbooks </Form.Label>
               <Form.Control as="textarea" placeholder="Reference Books" aria-label="With textarea" />
             </FormGroup>
+
+            
 
             <br />
             <div align="center" >
