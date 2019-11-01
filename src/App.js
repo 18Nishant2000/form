@@ -37,7 +37,7 @@ class App extends React.Component {
   render() {
     return (
 
-      <div className = "container">
+      <div className="container">
         <div className="mt-4 mb-4 mr-2 ml-2">
           <Form>
             <h2 className="text-white"><b>Syllabus for Theory Courses</b></h2> <hr />
@@ -151,63 +151,353 @@ class App extends React.Component {
             </FormGroup>
 
             <FormGroup>
-              <Form.Label className="text-white">PO and PSO mapping with level of strength for Course Name xxxx (Course Code yyyy)</Form.Label>
-              <Row >
+              <Form.Label className="text-white"><h3>PO and PSO mapping with level of strength for Course Name xxxx (Course Code yyyy)</h3></Form.Label>
+            </FormGroup>
+
+            <FormGroup>
+              <Form.Label className="text-white">CO1</Form.Label>
+              <Row>
                 <Col>
-                  <Form.Control type="text" id="1" placeholder="1" />
+                  <Form.Control type="number" id="1" placeholder="1" />
                 </Col>
                 <Col>
-                  <Form.Control type="text" id="2" placeholder="2" />
+                  <Form.Control type="number" id="2" placeholder="2" />
                 </Col>
                 <Col>
-                  <Form.Control type="text" id="3" placeholder="3" />
+                  <Form.Control type="number" id="3" placeholder="3" />
                 </Col>
                 <Col>
-                  <Form.Control type="text" id="4" placeholder="4" />
+                  <Form.Control type="number" id="4" placeholder="4" />
                 </Col>
                 <Col>
-                  <Form.Control type="text" id="5" placeholder="5" />
+                  <Form.Control type="number" id="5" placeholder="5" />
                 </Col>
                 <Col>
-                  <Form.Control type="text" id="6" placeholder="6" />
+                  <Form.Control type="number" id="6" placeholder="6" />
                 </Col>
                 <Col>
-                  <Form.Control type="text" id="6" placeholder="7" />
+                  <Form.Control type="number" id="6" placeholder="7" />
                 </Col>
                 <Col>
-                  <Form.Control type="text" id="6" placeholder="8" />
-                </Col>      
-                </Row>
-                <br/>
-                <Row>
-              
-                <Col>
-                  <Form.Control type="text" id="6" placeholder="10" />
-                </Col>
-                <Col>
-                  <Form.Control type="text" id="6" placeholder="11" />
-                </Col>
-                <Col>
-                  <Form.Control type="text" id="6" placeholder="12" />
-                </Col>
-                <Col>
-                  <Form.Control type="text" id="6" placeholder="13" />
-                </Col>
-                <Col>
-                  <Form.Control type="text" id="6" placeholder="14" />
-                </Col>
-                <Col>
-                  <Form.Control type="text" id="6" placeholder="15" />
-                </Col>
-                <Col>
-                  <Form.Control type="text" id="6" placeholder="16" />
-                </Col>
-                <Col>
-                  <Form.Control type="text" id="6" placeholder="17" />
+                  <Form.Control type="number" id="6" placeholder="8" />
                 </Col>
               </Row>
-
+              <br />
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="10" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="11" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="12" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="13" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="14" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="15" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="16" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="17" />
+                </Col>
+              </Row>
             </FormGroup>
+
+
+
+            <FormGroup>
+              <Form.Label className="text-white">CO2</Form.Label>
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="1" placeholder="1" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="2" placeholder="2" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="3" placeholder="3" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="4" placeholder="4" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="5" placeholder="5" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="6" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="7" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="8" />
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="10" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="11" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="12" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="13" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="14" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="15" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="16" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="17" />
+                </Col>
+              </Row>
+            </FormGroup>
+
+
+            <FormGroup>
+              <Form.Label className="text-white">CO3</Form.Label>
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="1" placeholder="1" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="2" placeholder="2" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="3" placeholder="3" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="4" placeholder="4" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="5" placeholder="5" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="6" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="7" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="8" />
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="10" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="11" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="12" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="13" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="14" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="15" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="16" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="17" />
+                </Col>
+              </Row>
+            </FormGroup>
+            <FormGroup>
+              <Form.Label className="text-white">CO4</Form.Label>
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="1" placeholder="1" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="2" placeholder="2" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="3" placeholder="3" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="4" placeholder="4" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="5" placeholder="5" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="6" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="7" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="8" />
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="10" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="11" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="12" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="13" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="14" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="15" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="16" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="17" />
+                </Col>
+              </Row>
+            </FormGroup>
+            <FormGroup>
+              <Form.Label className="text-white">CO5</Form.Label>
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="1" placeholder="1" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="2" placeholder="2" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="3" placeholder="3" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="4" placeholder="4" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="5" placeholder="5" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="6" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="7" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="8" />
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="10" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="11" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="12" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="13" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="14" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="15" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="16" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="17" />
+                </Col>
+              </Row>
+            </FormGroup>
+            <FormGroup>
+              <Form.Label className="text-white">CO6</Form.Label>
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="1" placeholder="1" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="2" placeholder="2" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="3" placeholder="3" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="4" placeholder="4" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="5" placeholder="5" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="6" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="7" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="8" />
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="10" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="11" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="12" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="13" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="14" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="15" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="16" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="6" placeholder="17" />
+                </Col>
+              </Row>
+            </FormGroup>
+
+
+
 
             <br />
             <div align="center" >
