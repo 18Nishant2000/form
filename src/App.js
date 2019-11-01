@@ -27,7 +27,7 @@ function onsave() {
   var Unit2=document.getElementById("Unit2").value;
   var Unit3=document.getElementById("Unit3").value;
   var Unit4=document.getElementById("Unit4").value;
-  window.alert(school + " " + program + " " + branch + " " + course_code + " " + course_title + " " + credits + " " + L + " " + T + " " + P + " " + course_status);
+  window.alert(school + " " + program + " " + branch + " " + course_code + " " + course_title + " " + credits + " " + L + " " + T + " " + P + " " + course_status+" "+objectives+" "+C01+" "+C02+" "+C03+" "+C04+" "+desc_course+" "+Unit1+" "+Unit2+" "+Unit3+" "+Unit4);
 }
 
 
