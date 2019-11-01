@@ -13,13 +13,21 @@ function onsave() {
   var course_code = document.getElementById("course_code").value;
   var course_title = document.getElementById("course_title").value;
   var credits = document.getElementById("credits").value;
-  var l1 = document.getElementById("L").value;
-  var t2 = document.getElementById("T").value;
-  var p3 = document.getElementById("p").value;
-  var core = document.getElementById("core").value;
-  var elective = document.getElementById("elective").value;
-  var openelective = document.getElementById("openElective").value;
-  window.alert(school + " " + program + " " + branch + " " + course_code + " " + course_title + " " + credits + " " + l1 + " " + t2 + " " + p3 + " " + core + " " + elective + " " + openelective);
+  var L = document.getElementById("L").value;
+  var T = document.getElementById("T").value;
+  var P = document.getElementById("P").value;
+  var course_status = document.getElementById("course_status").value;
+  var objectives=document.getElementById("objectives").value;
+  var C01=document.getElementById("C01").value;
+  var C02=document.getElementById("C02").value;
+  var C03=document.getElementById("C03").value;
+  var C04=document.getElementById("C04").value;
+  var desc_course=document.getElementById("desc_course").value;
+  var Unit1=document.getElementById("Unit1").value;
+  var Unit2=document.getElementById("Unit2").value;
+  var Unit3=document.getElementById("Unit3").value;
+  var Unit4=document.getElementById("Unit4").value;
+  window.alert(school + " " + program + " " + branch + " " + course_code + " " + course_title + " " + credits + " " + L + " " + T + " " + P + " " + course_status);
 }
 
 
@@ -83,7 +91,7 @@ class App extends React.Component {
                   <Form.Control type="number" id="T" placeholder="T" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="p" placeholder="P" />
+                  <Form.Control type="number" id="P" placeholder="P" />
                 </Col>
               </Row>
             </Form.Group>
@@ -91,10 +99,10 @@ class App extends React.Component {
             <Form.Group>
 
               <Form.Label className="text-white" id="courseStatus">Course Status</Form.Label>
-              <Form.Control as="select"> title="Course Status">
-                  <option id="core">Core</option>
-                <option id="elective">Elective</option>
-                <option id="openElective">Open Elective</option>
+              <Form.Control as="select" id="course_status"> title="Course Status">
+                  <option>Core</option>
+                <option>Elective</option>
+                <option>Open Elective</option>
               </Form.Control>
 
             </Form.Group>
@@ -102,7 +110,7 @@ class App extends React.Component {
 
             <FormGroup>
               <Form.Label className="text-white">Course Objective</Form.Label>
-              <Form.Control as="textarea" placeholder="Objectives" aria-label="With textarea" />
+              <Form.Control as="textarea" placeholder="Objectives" aria-label="With textarea" id="objectives"/>
             </FormGroup>
 
             <Form.Group controlId="Program">
@@ -115,19 +123,19 @@ class App extends React.Component {
 
             <FormGroup>
               <Form.Label className="text-white">Course Description</Form.Label>
-              <Form.Control as="textarea" placeholder="Descrption of Course" aria-label="With textarea" />
+              <Form.Control as="textarea" placeholder="Descrption of Course" aria-label="With textarea" id="desc_course" />
             </FormGroup>
 
 
             <FormGroup>
               <Form.Label className="text-white"><h3><b>Outline Syllabus</b> </h3> </Form.Label>
-              <Form.Control as="textarea" placeholder="Unit 1" aria-label="With textarea" />
+              <Form.Control as="textarea" placeholder="Unit 1" aria-label="With textarea" id="Unit1"/>
               <br />
-              <Form.Control as="textarea" placeholder="Unit 2" aria-label="With textarea" />
+              <Form.Control as="textarea" placeholder="Unit 2" aria-label="With textarea" id="Unit2"/>
               <br />
-              <Form.Control as="textarea" placeholder="Unit 3" aria-label="With textarea" />
+              <Form.Control as="textarea" placeholder="Unit 3" aria-label="With textarea" id="Unit3"/>
               <br />
-              <Form.Control as="textarea" placeholder="Unit 4" aria-label="With textarea" />
+              <Form.Control as="textarea" placeholder="Unit 4" aria-label="With textarea" id="Unit4"/>
             </FormGroup>
 
             <Form.Group controlId="formBasicCheckbox">
