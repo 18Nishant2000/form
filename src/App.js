@@ -130,6 +130,20 @@ class App extends React.Component {
               <Form.Control as="textarea" placeholder="Unit 4" aria-label="With textarea" />
             </FormGroup>
 
+            <Form.Group controlId="formBasicCheckbox">
+              <Row>
+                <Col>
+                  <Form.Check type="checkbox" label="Jury" className="text-white" />
+                </Col>
+                <Col>
+                  <Form.Check type="checkbox" label="Practical" className="text-white" />
+                </Col>
+                <Col>
+                  <Form.Check type="checkbox" label="Viva" className="text-white" />
+                </Col>
+              </Row>
+            </Form.Group>
+
             <FormGroup className="text-white" >
               <Form.Label >Weightage Distribution </Form.Label>
               <Row >
@@ -493,7 +507,7 @@ class App extends React.Component {
                 </Col>
               </Row>
             </FormGroup>
-            <br/>
+            <br />
             <FormGroup>
               <Form.Label className="text-white"><h3><b>Average of non-zeros entry in following table. </b></h3> </Form.Label>
               <Row>
