@@ -151,7 +151,7 @@ class App extends React.Component {
             </FormGroup>
 
             <FormGroup>
-              <Form.Label className="text-white"><h3>PO and PSO mapping with level of strength for Course Name xxxx (Course Code yyyy)</h3></Form.Label>
+              <Form.Label className="text-white"><h3><b>PO and PSO mapping with level of strength for Course Name xxxx (Course Code yyyy)</b></h3></Form.Label>
             </FormGroup>
 
             <FormGroup>
@@ -269,8 +269,6 @@ class App extends React.Component {
                 </Col>
               </Row>
             </FormGroup>
-
-
             <FormGroup>
               <Form.Label className="text-white">CO3</Form.Label>
               <Row>
@@ -495,10 +493,68 @@ class App extends React.Component {
                 </Col>
               </Row>
             </FormGroup>
+            <br/>
+            <FormGroup>
+              <Form.Label className="text-white"><h3><b>Average of non-zeros entry in following table. </b></h3> </Form.Label>
+              <Row>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="1" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="2" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="3" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="4" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="5" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="6" />
+                </Col>
 
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="7" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="8" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="10" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="11" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="12" />
+                </Col>
 
-
-
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="13" />
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="PSO 1" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="PSO 2" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="PSO 3" />
+                </Col>
+                <Col>
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="PSO 4" />
+                </Col>
+              </Row>
+            </FormGroup>
             <br />
             <div align="center" >
               <Button variant="primary" type="submit" onClick={onsave}>
