@@ -199,6 +199,9 @@ class App extends React.Component {
               <br />
               <Row>
                 <Col>
+                  <Form.Control type="number" id="6" placeholder="9" />
+                </Col>
+                <Col>
                   <Form.Control type="number" id="6" placeholder="10" />
                 </Col>
                 <Col>
@@ -218,9 +221,6 @@ class App extends React.Component {
                 </Col>
                 <Col>
                   <Form.Control type="number" id="6" placeholder="16" />
-                </Col>
-                <Col>
-                  <Form.Control type="number" id="6" placeholder="17" />
                 </Col>
               </Row>
             </FormGroup>
@@ -258,6 +258,9 @@ class App extends React.Component {
               <br />
               <Row>
                 <Col>
+                  <Form.Control type="number" id="6" placeholder="9" />
+                </Col>
+                <Col>
                   <Form.Control type="number" id="6" placeholder="10" />
                 </Col>
                 <Col>
@@ -277,9 +280,6 @@ class App extends React.Component {
                 </Col>
                 <Col>
                   <Form.Control type="number" id="6" placeholder="16" />
-                </Col>
-                <Col>
-                  <Form.Control type="number" id="6" placeholder="17" />
                 </Col>
               </Row>
             </FormGroup>
@@ -314,6 +314,9 @@ class App extends React.Component {
               <br />
               <Row>
                 <Col>
+                  <Form.Control type="number" id="6" placeholder="9" />
+                </Col>
+                <Col>
                   <Form.Control type="number" id="6" placeholder="10" />
                 </Col>
                 <Col>
@@ -333,9 +336,6 @@ class App extends React.Component {
                 </Col>
                 <Col>
                   <Form.Control type="number" id="6" placeholder="16" />
-                </Col>
-                <Col>
-                  <Form.Control type="number" id="6" placeholder="17" />
                 </Col>
               </Row>
             </FormGroup>
@@ -370,6 +370,9 @@ class App extends React.Component {
               <br />
               <Row>
                 <Col>
+                  <Form.Control type="number" id="6" placeholder="9" />
+                </Col>
+                <Col>
                   <Form.Control type="number" id="6" placeholder="10" />
                 </Col>
                 <Col>
@@ -389,9 +392,6 @@ class App extends React.Component {
                 </Col>
                 <Col>
                   <Form.Control type="number" id="6" placeholder="16" />
-                </Col>
-                <Col>
-                  <Form.Control type="number" id="6" placeholder="17" />
                 </Col>
               </Row>
             </FormGroup>
@@ -426,6 +426,9 @@ class App extends React.Component {
               <br />
               <Row>
                 <Col>
+                  <Form.Control type="number" id="6" placeholder="9" />
+                </Col>
+                <Col>
                   <Form.Control type="number" id="6" placeholder="10" />
                 </Col>
                 <Col>
@@ -445,9 +448,6 @@ class App extends React.Component {
                 </Col>
                 <Col>
                   <Form.Control type="number" id="6" placeholder="16" />
-                </Col>
-                <Col>
-                  <Form.Control type="number" id="6" placeholder="17" />
                 </Col>
               </Row>
             </FormGroup>
@@ -482,6 +482,9 @@ class App extends React.Component {
               <br />
               <Row>
                 <Col>
+                  <Form.Control type="number" id="6" placeholder="9" />
+                </Col>
+                <Col>
                   <Form.Control type="number" id="6" placeholder="10" />
                 </Col>
                 <Col>
@@ -502,12 +505,15 @@ class App extends React.Component {
                 <Col>
                   <Form.Control type="number" id="6" placeholder="16" />
                 </Col>
-                <Col>
-                  <Form.Control type="number" id="6" placeholder="17" />
-                </Col>
               </Row>
+              <br />
+              <div align="center" >
+                <Button variant="primary" type="submit" >
+                  Calculate Average
+                  </Button>
+              </div>
             </FormGroup>
-            <br />
+            
             <FormGroup>
               <Form.Label className="text-white"><h3><b>Average of non-zeros entry in following table. </b></h3> </Form.Label>
               <Row>
