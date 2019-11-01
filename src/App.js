@@ -14,8 +14,13 @@ function onsave() {
   var course_code = document.getElementById("course_code").value;
   var course_title = document.getElementById("course_title").value;
   var credits = document.getElementById("credits").value;
-
-  window.alert(school + " " + program + " " + branch + " " + course_code + " " + course_title + " " + credits);
+  var l1 = document.getElementById("L").value;
+  var t2 = document.getElementById("T").value;
+  var p3 = document.getElementById("p").value;
+  var core = document.getElementById("core").value;
+  var elective = document.getElementById("elective").value;
+  var openelective = document.getElementById("openElective").value;
+  window.alert(school + " " + program + " " + branch + " " + course_code + " " + course_title + " " + credits + " " + l1 + " " + t2 + " " + p3 + " " +core+ " " + elective + " " + openelective );
 }
 
 
@@ -48,57 +53,49 @@ class App extends React.Component {
               <Form.Control placeholder="Program" id="program"></Form.Control>
             </Form.Group>
 
-            <Form.Group controlId="Program">
+            <Form.Group>
               <Form.Label className="text-white">Branch</Form.Label>
               <Form.Control placeholder="Branch" id="branch" />
             </Form.Group>
 
-            <Form.Group controlId="Program">
+            <Form.Group>
               <Form.Label className="text-white">Course Code</Form.Label>
               <Form.Control placeholder="Code" id="course_code" />
             </Form.Group>
 
-
-            <Form.Group controlId="Program">
+            <Form.Group>
               <Form.Label className="text-white">Course Title</Form.Label>
               <Form.Control placeholder="Title" id="course_title" />
             </Form.Group>
 
 
-            <Form.Group controlId="Program">
+            <Form.Group>
               <Form.Label className="text-white">Credits</Form.Label>
               <Form.Control type="autofill" placeholder="Credits" id="credits" />
             </Form.Group>
 
-            <Form.Group controlId="Program">
+            <Form.Group >
               <Form.Label className="text-white">Contact Hours (L-T-P)</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" placeholder="L" />
+                  <Form.Control type="number" id="L" placeholder="L" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" placeholder="T" />
+                  <Form.Control type="number" id="T" placeholder="T" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" placeholder="P" />
+                  <Form.Control type="number" id="p" placeholder="P" />
                 </Col>
               </Row>
             </Form.Group>
-        
 
-
-
-            <Form.Group
-            // onChange={this.onPickColor.bind(this)}
-            // inputRef={el => this.inputEl = el}
-            // componentClass="select" placeholder="select"
-            >
+            <Form.Group>
 
               <Form.Label className="text-white" id="courseStatus">Course Status</Form.Label>
               <Form.Control as="select"> title="Course Status">
-                  <option>Core</option>
-                <option>Elective</option>
-                <option>Open Elective</option>
+                  <option id="core">Core</option>
+                <option id="elective">Elective</option>
+                <option id="openElective">Open Elective</option>
               </Form.Control>
 
             </Form.Group>
@@ -106,7 +103,7 @@ class App extends React.Component {
 
             <FormGroup>
               <Form.Label className="text-white">Course Objective</Form.Label>
-              <Form.Control as="textarea" aria-label="With textarea" />
+              <Form.Control as="textarea" placeholder = "Objectives" aria-label="With textarea" />
             </FormGroup>
 
             <Form.Group controlId="Program">
@@ -154,7 +151,7 @@ class App extends React.Component {
               <Form.Control as="textarea" placeholder="Reference Books" aria-label="With textarea" />
             </FormGroup>
 
-            
+
 
             <br />
             <div align="center" >

@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "DYNAMICQ.C": "cpp"
+        "DYNAMICQ.C": "cpp",
+        "FCFS.C": "cpp"
     }
 }
