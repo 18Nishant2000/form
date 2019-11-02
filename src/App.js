@@ -33,10 +33,14 @@ function onsave() {
 
 class App extends React.Component {
 
-  constructor(props) {
-    super(props);
-    this.state = { color: '' };
+  constructor() {
+    super();
+    this.state = {
+     school : " "
+    };
   }
+
+  
 
   onPickColor(e) {
     console.log('[onPickColor]', this.inputEl)
@@ -180,55 +184,55 @@ class App extends React.Component {
               <Form.Label className="text-white">CO1</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" id="1" placeholder="1" />
+                  <Form.Control type="number" id="1.0" placeholder="1" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="2" placeholder="2" />
+                  <Form.Control type="number" id="2.0" placeholder="2" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="3" placeholder="3" />
+                  <Form.Control type="number" id="3.0" placeholder="3" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="4" placeholder="4" />
+                  <Form.Control type="number" id="4.0" placeholder="4" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="5" placeholder="5" />
+                  <Form.Control type="number" id="5.0" placeholder="5" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="6" placeholder="6" />
+                  <Form.Control type="number" id="6.0" placeholder="6" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="6" placeholder="7" />
+                  <Form.Control type="number" id="7.0" placeholder="7" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="6" placeholder="8" />
+                  <Form.Control type="number" id="8.0" placeholder="8" />
                 </Col>
               </Row>
               <br />
               <Row>
                 <Col>
-                  <Form.Control type="number" id="6" placeholder="10" />
+                  <Form.Control type="number" id="9.0" placeholder="10" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="6" placeholder="11" />
+                  <Form.Control type="number" id="10.0" placeholder="11" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="6" placeholder="12" />
+                  <Form.Control type="number" id="11.0" placeholder="12" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="6" placeholder="13" />
+                  <Form.Control type="number" id="12.0" placeholder="13" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="6" placeholder="14" />
+                  <Form.Control type="number" id="13.0" placeholder="14" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="6" placeholder="15" />
+                  <Form.Control type="number" id="14.0" placeholder="15" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="6" placeholder="16" />
+                  <Form.Control type="number" id="15.0" placeholder="16" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="6" placeholder="17" />
+                  <Form.Control type="number" id="16.0" placeholder="17" />
                 </Col>
               </Row>
             </FormGroup>
