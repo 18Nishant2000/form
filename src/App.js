@@ -266,22 +266,22 @@ class App extends React.Component {
       CO6_TEMP_15: document.getElementById("CO6_15").value,
       CO6_TEMP_16: document.getElementById("CO6_16").value,
 
-      avg_co1:document.getElementById("id_avg_co1").value,
-      avg_co2:document.getElementById("id_avg_co2").value,
-      avg_co3:document.getElementById("id_avg_co3").value,
-      avg_co4:document.getElementById("id_avg_co4").value,
-      avg_co5:document.getElementById("id_avg_co5").value,
-      avg_co6:document.getElementById("id_avg_co6").value,
-      avg_co7:document.getElementById("id_avg_co7").value,
-      avg_co8:document.getElementById("id_avg_co8").value,
-      avg_co9:document.getElementById("id_avg_co9").value,
-      avg_co10:document.getElementById("id_avg_co10").value,
-      avg_co11:document.getElementById("id_avg_co11").value,
-      avg_co12:document.getElementById("id_avg_co12").value,
-      avg_co13:document.getElementById("id_avg_co13").value,
-      avg_co14:document.getElementById("id_avg_co14").value,
-      avg_co15:document.getElementById("id_avg_co15").value,
-      avg_co16:document.getElementById("id_avg_co16").value
+      avg_co1: document.getElementById("id_avg_co1").value,
+      avg_co2: document.getElementById("id_avg_co2").value,
+      avg_co3: document.getElementById("id_avg_co3").value,
+      avg_co4: document.getElementById("id_avg_co4").value,
+      avg_co5: document.getElementById("id_avg_co5").value,
+      avg_co6: document.getElementById("id_avg_co6").value,
+      avg_co7: document.getElementById("id_avg_co7").value,
+      avg_co8: document.getElementById("id_avg_co8").value,
+      avg_co9: document.getElementById("id_avg_co9").value,
+      avg_co10: document.getElementById("id_avg_co10").value,
+      avg_co11: document.getElementById("id_avg_co11").value,
+      avg_co12: document.getElementById("id_avg_co12").value,
+      avg_co13: document.getElementById("id_avg_co13").value,
+      avg_co14: document.getElementById("id_avg_co14").value,
+      avg_co15: document.getElementById("id_avg_co15").value,
+      avg_co16: document.getElementById("id_avg_co16").value
 
     });
   };
@@ -387,10 +387,10 @@ class App extends React.Component {
                   <Form.Check type="checkbox" label="Jury" className="text-white" id="practical" />
                 </Col>
                 <Col>
-                  <Form.Check type="checkbox" label="Practical" className="text-white" id="jury"/>
+                  <Form.Check type="checkbox" label="Practical" className="text-white" id="jury" />
                 </Col>
                 <Col>
-                  <Form.Check type="checkbox" label="Viva" className="text-white" id="viva"/>
+                  <Form.Check type="checkbox" label="Viva" className="text-white" id="viva" />
                 </Col>
               </Row>
             </Form.Group>
