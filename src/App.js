@@ -297,32 +297,32 @@ class App extends React.Component {
 
             <Form.Group>
               <Form.Label className="text-white">School</Form.Label>
-              <Form.Control placeholder="School" id="school" />
+              <Form.Control id="school" />
             </Form.Group>
 
             <Form.Group>
               <Form.Label className="text-white">Program</Form.Label>
-              <Form.Control placeholder="Program" id="program"></Form.Control>
+              <Form.Control id="program"></Form.Control>
             </Form.Group>
 
             <Form.Group>
               <Form.Label className="text-white">Branch</Form.Label>
-              <Form.Control placeholder="Branch" id="branch" />
+              <Form.Control id="branch" />
             </Form.Group>
 
             <Form.Group>
               <Form.Label className="text-white">Course Code</Form.Label>
-              <Form.Control placeholder="Code" id="course_code" />
+              <Form.Control id="course_code" />
             </Form.Group>
 
             <Form.Group>
               <Form.Label className="text-white">Course Title</Form.Label>
-              <Form.Control placeholder="Title" id="course_title" />
+              <Form.Control id="course_title" />
             </Form.Group>
 
             <Form.Group>
               <Form.Label className="text-white">Credits</Form.Label>
-              <Form.Control type="autofill" placeholder="Credits" id="credits" />
+              <Form.Control type="autofill" id="credits" />
             </Form.Group>
 
             <Form.Group >
@@ -354,7 +354,7 @@ class App extends React.Component {
 
             <FormGroup>
               <Form.Label className="text-white">Course Objective</Form.Label>
-              <Form.Control as="textarea" placeholder="Objectives" aria-label="With textarea" id="objectives" />
+              <Form.Control as="textarea" aria-label="With textarea" id="objectives" />
             </FormGroup>
 
             <Form.Group controlId="Program">
@@ -367,7 +367,7 @@ class App extends React.Component {
 
             <FormGroup>
               <Form.Label className="text-white">Course Description</Form.Label>
-              <Form.Control as="textarea" placeholder="Descrption of Course" aria-label="With textarea" id="desc_course" />
+              <Form.Control as="textarea" aria-label="With textarea" id="desc_course" />
             </FormGroup>
 
 
@@ -412,8 +412,8 @@ class App extends React.Component {
             </FormGroup>
 
             <FormGroup>
-              <Form.Label className="text-white">Textbooks </Form.Label>
-              <Form.Control as="textarea" placeholder="Reference Books" aria-label="With textarea" />
+              <Form.Label className="text-white">Textbooks(Reference Books) </Form.Label>
+              <Form.Control as="textarea" aria-label="With textarea" />
             </FormGroup>
 
             <FormGroup>
