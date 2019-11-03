@@ -27,7 +27,112 @@ function onsave() {
   var Unit2 = document.getElementById("Unit2").value;
   var Unit3 = document.getElementById("Unit3").value;
   var Unit4 = document.getElementById("Unit4").value;
-  window.alert(school + " " + program + " " + branch + " " + course_code + " " + course_title + " " + credits + " " + L + " " + T + " " + P + " " + course_status + " " + objectives + " " + C01 + " " + C02 + " " + C03 + " " + C04 + " " + desc_course + " " + Unit1 + " " + Unit2 + " " + Unit3 + " " + Unit4);
+
+  // PO AND POS
+  var CO1_TEMP_1 = document.getElementById("CO1_1").value;
+  var CO1_TEMP_2 = document.getElementById("CO1_2").value;
+  var CO1_TEMP_3 = document.getElementById("CO1_3").value;
+  var CO1_TEMP_4 = document.getElementById("CO1_4").value;
+  var CO1_TEMP_5 = document.getElementById("CO1_5").value;
+  var CO1_TEMP_6 = document.getElementById("CO1_6").value;
+  var CO1_TEMP_7 = document.getElementById("CO1_7").value;
+  var CO1_TEMP_8 = document.getElementById("CO1_8").value;
+  var CO1_TEMP_9 = document.getElementById("CO1_9").value;
+  var CO1_TEMP_10 = document.getElementById("CO1_10").value;
+  var CO1_TEMP_11 = document.getElementById("CO1_11").value;
+  var CO1_TEMP_12 = document.getElementById("CO1_12").value;
+  var CO1_TEMP_13 = document.getElementById("CO1_13").value;
+  var CO1_TEMP_14 = document.getElementById("CO1_14").value;
+  var CO1_TEMP_15 = document.getElementById("CO1_15").value;
+  var CO1_TEMP_16 = document.getElementById("CO1_16").value;
+
+  var CO2_TEMP_1 = document.getElementById("CO2_1").value;
+  var CO2_TEMP_2 = document.getElementById("CO2_2").value;
+  var CO2_TEMP_3 = document.getElementById("CO2_3").value;
+  var CO2_TEMP_4 = document.getElementById("CO2_4").value;
+  var CO2_TEMP_5 = document.getElementById("CO2_5").value;
+  var CO2_TEMP_6 = document.getElementById("CO2_6").value;
+  var CO2_TEMP_7 = document.getElementById("CO2_7").value;
+  var CO2_TEMP_8 = document.getElementById("CO2_8").value;
+  var CO2_TEMP_9 = document.getElementById("CO2_9").value;
+  var CO2_TEMP_10 = document.getElementById("CO2_10").value;
+  var CO2_TEMP_11 = document.getElementById("CO2_11").value;
+  var CO2_TEMP_12 = document.getElementById("CO2_12").value;
+  var CO2_TEMP_13 = document.getElementById("CO2_13").value;
+  var CO2_TEMP_14 = document.getElementById("CO2_14").value;
+  var CO2_TEMP_15 = document.getElementById("CO2_15").value;
+  var CO2_TEMP_16 = document.getElementById("CO2_16").value;
+
+  var CO3_TEMP_1 = document.getElementById("CO3_1").value;
+  var CO3_TEMP_2 = document.getElementById("CO3_2").value;
+  var CO3_TEMP_3 = document.getElementById("CO3_3").value;
+  var CO3_TEMP_4 = document.getElementById("CO3_4").value;
+  var CO3_TEMP_5 = document.getElementById("CO3_5").value;
+  var CO3_TEMP_6 = document.getElementById("CO3_6").value;
+  var CO3_TEMP_7 = document.getElementById("CO3_7").value;
+  var CO3_TEMP_8 = document.getElementById("CO3_8").value;
+  var CO3_TEMP_9 = document.getElementById("CO3_9").value;
+  var CO3_TEMP_10 = document.getElementById("CO3_10").value;
+  var CO3_TEMP_11 = document.getElementById("CO3_11").value;
+  var CO3_TEMP_12 = document.getElementById("CO3_12").value;
+  var CO3_TEMP_13 = document.getElementById("CO3_13").value;
+  var CO3_TEMP_14 = document.getElementById("CO3_14").value;
+  var CO3_TEMP_15 = document.getElementById("CO3_15").value;
+  var CO3_TEMP_16 = document.getElementById("CO3_16").value;
+
+  var CO4_TEMP_1 = document.getElementById("CO4_1").value;
+  var CO4_TEMP_2 = document.getElementById("CO4_2").value;
+  var CO4_TEMP_3 = document.getElementById("CO4_3").value;
+  var CO4_TEMP_4 = document.getElementById("CO4_4").value;
+  var CO4_TEMP_5 = document.getElementById("CO4_5").value;
+  var CO4_TEMP_6 = document.getElementById("CO4_6").value;
+  var CO4_TEMP_7 = document.getElementById("CO4_7").value;
+  var CO4_TEMP_8 = document.getElementById("CO4_8").value;
+  var CO4_TEMP_9 = document.getElementById("CO4_9").value;
+  var CO4_TEMP_10 = document.getElementById("CO4_10").value;
+  var CO4_TEMP_11 = document.getElementById("CO4_11").value;
+  var CO4_TEMP_12 = document.getElementById("CO4_12").value;
+  var CO4_TEMP_13 = document.getElementById("CO4_13").value;
+  var CO4_TEMP_14 = document.getElementById("CO4_14").value;
+  var CO4_TEMP_15 = document.getElementById("CO4_15").value;
+  var CO4_TEMP_16 = document.getElementById("CO4_16").value;
+
+  var CO5_TEMP_1 = document.getElementById("CO5_1").value;
+  var CO5_TEMP_2 = document.getElementById("CO5_2").value;
+  var CO5_TEMP_3 = document.getElementById("CO5_3").value;
+  var CO5_TEMP_4 = document.getElementById("CO5_4").value;
+  var CO5_TEMP_5 = document.getElementById("CO5_5").value;
+  var CO5_TEMP_6 = document.getElementById("CO5_6").value;
+  var CO5_TEMP_7 = document.getElementById("CO5_7").value;
+  var CO5_TEMP_8 = document.getElementById("CO5_8").value;
+  var CO5_TEMP_9 = document.getElementById("CO5_9").value;
+  var CO5_TEMP_10 = document.getElementById("CO5_10").value;
+  var CO5_TEMP_11 = document.getElementById("CO5_11").value;
+  var CO5_TEMP_12 = document.getElementById("CO5_12").value;
+  var CO5_TEMP_13 = document.getElementById("CO5_13").value;
+  var CO5_TEMP_14 = document.getElementById("CO5_14").value;
+  var CO5_TEMP_15 = document.getElementById("CO5_15").value;
+  var CO5_TEMP_16 = document.getElementById("CO5_16").value;
+
+  var CO6_TEMP_1 = document.getElementById("CO6_1").value;
+  var CO6_TEMP_2 = document.getElementById("CO6_2").value;
+  var CO6_TEMP_3 = document.getElementById("CO6_3").value;
+  var CO6_TEMP_4 = document.getElementById("CO6_4").value;
+  var CO6_TEMP_5 = document.getElementById("CO6_5").value;
+  var CO6_TEMP_6 = document.getElementById("CO6_6").value;
+  var CO6_TEMP_7 = document.getElementById("CO6_7").value;
+  var CO6_TEMP_8 = document.getElementById("CO6_8").value;
+  var CO6_TEMP_9 = document.getElementById("CO6_9").value;
+  var CO6_TEMP_10 = document.getElementById("CO6_10").value;
+  var CO6_TEMP_11 = document.getElementById("CO6_11").value;
+  var CO6_TEMP_12 = document.getElementById("CO6_12").value;
+  var CO6_TEMP_13 = document.getElementById("CO6_13").value;
+  var CO6_TEMP_14 = document.getElementById("CO6_14").value;
+  var CO6_TEMP_15 = document.getElementById("CO6_15").value;
+  var CO6_TEMP_16 = document.getElementById("CO6_16").value;
+  
+
+  window.alert(school + " " + program + " " + branch + " " + course_code + " " + course_title + " " + credits + " " + L + " " + T + " " + P + " " + course_status + " " + objectives + " " + C01 + " " + C02 + " " + C03 + " " + C04 + " " + desc_course + " " + Unit1 + " " + Unit2 + " " + Unit3 + " " + Unit4 + " " );
 }
 function App() {
 
@@ -62,7 +167,6 @@ function App() {
             <Form.Label className="text-white">Course Title</Form.Label>
             <Form.Control placeholder="Title" id="course_title" />
           </Form.Group>
-
 
           <Form.Group>
             <Form.Label className="text-white">Credits</Form.Label>
@@ -279,63 +383,63 @@ function App() {
               </Col>
             </Row>
             <br />
-        
+
             <FormGroup>
-            <Form.Label className="text-white">CO3</Form.Label>
-            <Row>
-              <Col>
-                <Form.Control type="number" id="CO3_1" placeholder="1" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="CO3_2" placeholder="2" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="CO3_3" placeholder="3" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="CO3_4" placeholder="4" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="CO3_5" placeholder="5" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="CO3_6" placeholder="6" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="CO3_7" placeholder="7" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="CO3_8" placeholder="8" />
-              </Col>
-            </Row>
-            <br />
-            <Row>
-              <Col>
-                <Form.Control type="number" id="C03_9" placeholder="9" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="C03_10" placeholder="10" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="C03_11" placeholder="11" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="C03_12" placeholder="12" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="C03_13" placeholder="13" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="C03_14" placeholder="14" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="C03_15" placeholder="15" />
-              </Col>
-              <Col>
-                <Form.Control type="number" id="C01_16" placeholder="16" />
-              </Col>
-            </Row>
-          </FormGroup>
+              <Form.Label className="text-white">CO3</Form.Label>
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="CO3_1" placeholder="1" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_2" placeholder="2" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_3" placeholder="3" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_4" placeholder="4" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_5" placeholder="5" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_6" placeholder="6" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_7" placeholder="7" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_8" placeholder="8" />
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="C03_9" placeholder="9" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="C03_10" placeholder="10" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="C03_11" placeholder="11" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="C03_12" placeholder="12" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="C03_13" placeholder="13" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="C03_14" placeholder="14" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="C03_15" placeholder="15" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="C01_16" placeholder="16" />
+                </Col>
+              </Row>
+            </FormGroup>
 
           </FormGroup>
           <FormGroup>
@@ -397,113 +501,113 @@ function App() {
           <FormGroup>
             <Form.Label className="text-white">CO5</Form.Label>
             <Row>
-            <Col>
-            <Form.Control type="number" id="CO5_1" placeholder="1" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO5_2" placeholder="2" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO5_3" placeholder="3" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO5_4" placeholder="4" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO5_5" placeholder="5" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO5_6" placeholder="6" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO5_7" placeholder="7" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO5_8" placeholder="8" />
-          </Col>
-        </Row>
-        <br />
-        <Row>
-          <Col>
-            <Form.Control type="number" id="C05_9" placeholder="9" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C05_10" placeholder="10" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C05_11" placeholder="11" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C05_12" placeholder="12" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C05_13" placeholder="13" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C05_14" placeholder="14" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C05_15" placeholder="15" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C05_16" placeholder="16" />
-          </Col>
+              <Col>
+                <Form.Control type="number" id="CO5_1" placeholder="1" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO5_2" placeholder="2" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO5_3" placeholder="3" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO5_4" placeholder="4" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO5_5" placeholder="5" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO5_6" placeholder="6" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO5_7" placeholder="7" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO5_8" placeholder="8" />
+              </Col>
+            </Row>
+            <br />
+            <Row>
+              <Col>
+                <Form.Control type="number" id="C05_9" placeholder="9" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C05_10" placeholder="10" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C05_11" placeholder="11" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C05_12" placeholder="12" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C05_13" placeholder="13" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C05_14" placeholder="14" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C05_15" placeholder="15" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C05_16" placeholder="16" />
+              </Col>
             </Row>
           </FormGroup>
           <FormGroup>
             <Form.Label className="text-white">CO6</Form.Label>
             <Row>
-            <Col>
-            <Form.Control type="number" id="CO6_1" placeholder="1" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO6_2" placeholder="2" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO6_3" placeholder="3" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO6_4" placeholder="4" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO6_5" placeholder="5" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO6_6" placeholder="6" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO6_7" placeholder="7" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="CO6_8" placeholder="8" />
-          </Col>
-        </Row>
-        <br />
-        <Row>
-          <Col>
-            <Form.Control type="number" id="C06_9" placeholder="9" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C06_10" placeholder="10" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C06_11" placeholder="11" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C06_12" placeholder="12" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C06_13" placeholder="13" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C06_14" placeholder="14" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C06_15" placeholder="15" />
-          </Col>
-          <Col>
-            <Form.Control type="number" id="C06_16" placeholder="16" />
-          </Col>
+              <Col>
+                <Form.Control type="number" id="CO6_1" placeholder="1" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO6_2" placeholder="2" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO6_3" placeholder="3" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO6_4" placeholder="4" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO6_5" placeholder="5" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO6_6" placeholder="6" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO6_7" placeholder="7" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="CO6_8" placeholder="8" />
+              </Col>
+            </Row>
+            <br />
+            <Row>
+              <Col>
+                <Form.Control type="number" id="C06_9" placeholder="9" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C06_10" placeholder="10" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C06_11" placeholder="11" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C06_12" placeholder="12" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C06_13" placeholder="13" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C06_14" placeholder="14" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C06_15" placeholder="15" />
+              </Col>
+              <Col>
+                <Form.Control type="number" id="C06_16" placeholder="16" />
+              </Col>
             </Row>
             <br />
             <div align="center" >
