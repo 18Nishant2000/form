@@ -8,7 +8,7 @@ import FormGroup from 'react-bootstrap/FormGroup';
 import firebase from './firbase.js'
 
 class App extends React.Component {
-  
+
   avg = () => {
     var avg_co1 = (parseInt(document.getElementById("CO1_1").value) +
       parseInt(document.getElementById("CO2_1").value) +
