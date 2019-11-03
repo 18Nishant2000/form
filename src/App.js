@@ -8,150 +8,134 @@ import FormGroup from 'react-bootstrap/FormGroup';
 import firebase from './firbase.js'
 
 class App extends React.Component {
-  avg = () =>{
-    var avg_co1=(parseInt(document.getElementById("CO1_1").value)+
-    parseInt(document.getElementById("CO2_1").value)+
-    parseInt(document.getElementById("CO3_1").value)+
-    parseInt(document.getElementById("CO4_1").value)+
-    parseInt(document.getElementById("CO5_1").value)+
-    parseInt(document.getElementById("CO6_1").value))/6;
-    window.alert(avg_co1)
-    document.getElementById("id_avg_co1").innerHTML=avg_co1;
+  avg = () => {
+    var avg_co1 = (parseInt(document.getElementById("CO1_1").value) +
+      parseInt(document.getElementById("CO2_1").value) +
+      parseInt(document.getElementById("CO3_1").value) +
+      parseInt(document.getElementById("CO4_1").value) +
+      parseInt(document.getElementById("CO5_1").value) +
+      parseInt(document.getElementById("CO6_1").value)) / 6;
+    document.getElementById("id_avg_co1").innerHTML = avg_co1;
 
-    var avg_co2=(parseInt(document.getElementById("CO1_2").value)+
-    parseInt(document.getElementById("CO2_2").value)+
-    parseInt(document.getElementById("CO3_2").value)+
-    parseInt(document.getElementById("CO4_2").value)+
-    parseInt(document.getElementById("CO5_2").value)+
-    parseInt(document.getElementById("CO6_2").value))/6;
-    window.alert(avg_co2)
-    document.getElementById("id_avg_co2").innerHTML=avg_co2;
-    
-    var avg_co3=(parseInt(document.getElementById("CO1_3").value)+
-    parseInt(document.getElementById("CO2_3").value)+
-    parseInt(document.getElementById("CO3_3").value)+
-    parseInt(document.getElementById("CO4_3").value)+
-    parseInt(document.getElementById("CO5_3").value)+
-    parseInt(document.getElementById("CO6_3").value))/6;
-    window.alert(avg_co3)
-    document.getElementById("id_avg_co3").innerHTML=avg_co3;
+    var avg_co2 = (parseInt(document.getElementById("CO1_2").value) +
+      parseInt(document.getElementById("CO2_2").value) +
+      parseInt(document.getElementById("CO3_2").value) +
+      parseInt(document.getElementById("CO4_2").value) +
+      parseInt(document.getElementById("CO5_2").value) +
+      parseInt(document.getElementById("CO6_2").value)) / 6;
+    document.getElementById("id_avg_co2").innerHTML = avg_co2;
 
-    var avg_co4=(parseInt(document.getElementById("CO1_4").value)+
-    parseInt(document.getElementById("CO2_4").value)+
-    parseInt(document.getElementById("CO3_4").value)+
-    parseInt(document.getElementById("CO4_4").value)+
-    parseInt(document.getElementById("CO5_4").value)+
-    parseInt(document.getElementById("CO6_4").value))/6;
-    window.alert(avg_co4)
-    document.getElementById("id_avg_co4").innerHTML=avg_co4;
+    var avg_co3 = (parseInt(document.getElementById("CO1_3").value) +
+      parseInt(document.getElementById("CO2_3").value) +
+      parseInt(document.getElementById("CO3_3").value) +
+      parseInt(document.getElementById("CO4_3").value) +
+      parseInt(document.getElementById("CO5_3").value) +
+      parseInt(document.getElementById("CO6_3").value)) / 6;
+    document.getElementById("id_avg_co3").innerHTML = avg_co3;
 
-    var avg_co5=(parseInt(document.getElementById("CO1_5").value)+
-    parseInt(document.getElementById("CO2_5").value)+
-    parseInt(document.getElementById("CO3_5").value)+
-    parseInt(document.getElementById("CO4_5").value)+
-    parseInt(document.getElementById("CO5_5").value)+
-    parseInt(document.getElementById("CO6_5").value))/6;
-    window.alert(avg_co5)
-    document.getElementById("id_avg_co5").innerHTML=avg_co5;
+    var avg_co4 = (parseInt(document.getElementById("CO1_4").value) +
+      parseInt(document.getElementById("CO2_4").value) +
+      parseInt(document.getElementById("CO3_4").value) +
+      parseInt(document.getElementById("CO4_4").value) +
+      parseInt(document.getElementById("CO5_4").value) +
+      parseInt(document.getElementById("CO6_4").value)) / 6;
+    document.getElementById("id_avg_co4").innerHTML = avg_co4;
 
-    var avg_co6=(parseInt(document.getElementById("CO1_6").value)+
-    parseInt(document.getElementById("CO2_6").value)+
-    parseInt(document.getElementById("CO3_6").value)+
-    parseInt(document.getElementById("CO4_6").value)+
-    parseInt(document.getElementById("CO5_6").value)+
-    parseInt(document.getElementById("CO6_6").value))/6;
-    window.alert(avg_co6)
-    document.getElementById("id_avg_co6").innerHTML=avg_co6;
+    var avg_co5 = (parseInt(document.getElementById("CO1_5").value) +
+      parseInt(document.getElementById("CO2_5").value) +
+      parseInt(document.getElementById("CO3_5").value) +
+      parseInt(document.getElementById("CO4_5").value) +
+      parseInt(document.getElementById("CO5_5").value) +
+      parseInt(document.getElementById("CO6_5").value)) / 6;
+    document.getElementById("id_avg_co5").innerHTML = avg_co5;
 
-    var avg_co7=(parseInt(document.getElementById("CO1_7").value)+
-    parseInt(document.getElementById("CO2_7").value)+
-    parseInt(document.getElementById("CO3_7").value)+
-    parseInt(document.getElementById("CO4_7").value)+
-    parseInt(document.getElementById("CO5_7").value)+
-    parseInt(document.getElementById("CO6_7").value))/6;
-    window.alert(avg_co7)
-    document.getElementById("id_avg_co7").innerHTML=avg_co7;
+    var avg_co6 = (parseInt(document.getElementById("CO1_6").value) +
+      parseInt(document.getElementById("CO2_6").value) +
+      parseInt(document.getElementById("CO3_6").value) +
+      parseInt(document.getElementById("CO4_6").value) +
+      parseInt(document.getElementById("CO5_6").value) +
+      parseInt(document.getElementById("CO6_6").value)) / 6;
+    document.getElementById("id_avg_co6").innerHTML = avg_co6;
 
-    var avg_co8=(parseInt(document.getElementById("CO1_8").value)+
-    parseInt(document.getElementById("CO2_8").value)+
-    parseInt(document.getElementById("CO3_8").value)+
-    parseInt(document.getElementById("CO4_8").value)+
-    parseInt(document.getElementById("CO5_8").value)+
-    parseInt(document.getElementById("CO6_8").value))/6;
-    window.alert(avg_co8)
-    document.getElementById("id_avg_co8").innerHTML=avg_co8;
+    var avg_co7 = (parseInt(document.getElementById("CO1_7").value) +
+      parseInt(document.getElementById("CO2_7").value) +
+      parseInt(document.getElementById("CO3_7").value) +
+      parseInt(document.getElementById("CO4_7").value) +
+      parseInt(document.getElementById("CO5_7").value) +
+      parseInt(document.getElementById("CO6_7").value)) / 6;
+    document.getElementById("id_avg_co7").innerHTML = avg_co7;
 
-    var avg_co9=(parseInt(document.getElementById("CO1_9").value)+
-    parseInt(document.getElementById("CO2_9").value)+
-    parseInt(document.getElementById("CO3_9").value)+
-    parseInt(document.getElementById("CO4_9").value)+
-    parseInt(document.getElementById("CO5_9").value)+
-    parseInt(document.getElementById("CO6_9").value))/6;
-    window.alert(avg_co9)
-    document.getElementById("id_avg_co9").innerHTML=avg_co9;
+    var avg_co8 = (parseInt(document.getElementById("CO1_8").value) +
+      parseInt(document.getElementById("CO2_8").value) +
+      parseInt(document.getElementById("CO3_8").value) +
+      parseInt(document.getElementById("CO4_8").value) +
+      parseInt(document.getElementById("CO5_8").value) +
+      parseInt(document.getElementById("CO6_8").value)) / 6;
+    document.getElementById("id_avg_co8").innerHTML = avg_co8;
 
-    var avg_co10=(parseInt(document.getElementById("CO1_10").value)+
-    parseInt(document.getElementById("CO2_10").value)+
-    parseInt(document.getElementById("CO3_10").value)+
-    parseInt(document.getElementById("CO4_10").value)+
-    parseInt(document.getElementById("CO5_10").value)+
-    parseInt(document.getElementById("CO6_10").value))/6;
-    window.alert(avg_co10)
-    document.getElementById("id_avg_co10").innerHTML=avg_co10;
+    var avg_co9 = (parseInt(document.getElementById("CO1_9").value) +
+      parseInt(document.getElementById("CO2_9").value) +
+      parseInt(document.getElementById("CO3_9").value) +
+      parseInt(document.getElementById("CO4_9").value) +
+      parseInt(document.getElementById("CO5_9").value) +
+      parseInt(document.getElementById("CO6_9").value)) / 6;
+    document.getElementById("id_avg_co9").innerHTML = avg_co9;
 
-    var avg_co11=(parseInt(document.getElementById("CO1_11").value)+
-    parseInt(document.getElementById("CO2_11").value)+
-    parseInt(document.getElementById("CO3_11").value)+
-    parseInt(document.getElementById("CO4_11").value)+
-    parseInt(document.getElementById("CO5_11").value)+
-    parseInt(document.getElementById("CO6_11").value))/6;
-    window.alert(avg_co11)
-    document.getElementById("id_avg_co11").innerHTML=avg_co11;
+    var avg_co10 = (parseInt(document.getElementById("CO1_10").value) +
+      parseInt(document.getElementById("CO2_10").value) +
+      parseInt(document.getElementById("CO3_10").value) +
+      parseInt(document.getElementById("CO4_10").value) +
+      parseInt(document.getElementById("CO5_10").value) +
+      parseInt(document.getElementById("CO6_10").value)) / 6;
+    document.getElementById("id_avg_co10").innerHTML = avg_co10;
 
-    var avg_co12=(parseInt(document.getElementById("CO1_12").value)+
-    parseInt(document.getElementById("CO2_12").value)+
-    parseInt(document.getElementById("CO3_12").value)+
-    parseInt(document.getElementById("CO4_12").value)+
-    parseInt(document.getElementById("CO5_12").value)+
-    parseInt(document.getElementById("CO6_12").value))/6;
-    window.alert(avg_co12)
-    document.getElementById("id_avg_co12").innerHTML=avg_co12;
+    var avg_co11 = (parseInt(document.getElementById("CO1_11").value) +
+      parseInt(document.getElementById("CO2_11").value) +
+      parseInt(document.getElementById("CO3_11").value) +
+      parseInt(document.getElementById("CO4_11").value) +
+      parseInt(document.getElementById("CO5_11").value) +
+      parseInt(document.getElementById("CO6_11").value)) / 6;
+    document.getElementById("id_avg_co11").innerHTML = avg_co11;
 
-    var avg_co13=(parseInt(document.getElementById("CO1_13").value)+
-    parseInt(document.getElementById("CO2_13").value)+
-    parseInt(document.getElementById("CO3_13").value)+
-    parseInt(document.getElementById("CO4_13").value)+
-    parseInt(document.getElementById("CO5_13").value)+
-    parseInt(document.getElementById("CO6_13").value))/6;
-    window.alert(avg_co13)
-    document.getElementById("id_avg_co13").innerHTML=avg_co13;
+    var avg_co12 = (parseInt(document.getElementById("CO1_12").value) +
+      parseInt(document.getElementById("CO2_12").value) +
+      parseInt(document.getElementById("CO3_12").value) +
+      parseInt(document.getElementById("CO4_12").value) +
+      parseInt(document.getElementById("CO5_12").value) +
+      parseInt(document.getElementById("CO6_12").value)) / 6;
+    document.getElementById("id_avg_co12").innerHTML = avg_co12;
 
-    var avg_co14=(parseInt(document.getElementById("CO1_14").value)+
-    parseInt(document.getElementById("CO2_14").value)+
-    parseInt(document.getElementById("CO3_14").value)+
-    parseInt(document.getElementById("CO4_14").value)+
-    parseInt(document.getElementById("CO5_14").value)+
-    parseInt(document.getElementById("CO6_14").value))/6;
-    window.alert(avg_co14)
-    document.getElementById("id_avg_co14").innerHTML=avg_co14;
+    var avg_co13 = (parseInt(document.getElementById("CO1_13").value) +
+      parseInt(document.getElementById("CO2_13").value) +
+      parseInt(document.getElementById("CO3_13").value) +
+      parseInt(document.getElementById("CO4_13").value) +
+      parseInt(document.getElementById("CO5_13").value) +
+      parseInt(document.getElementById("CO6_13").value)) / 6;
+    document.getElementById("id_avg_co13").innerHTML = avg_co13;
 
-    var avg_co15=(parseInt(document.getElementById("CO1_15").value)+
-    parseInt(document.getElementById("CO2_15").value)+
-    parseInt(document.getElementById("CO3_15").value)+
-    parseInt(document.getElementById("CO4_15").value)+
-    parseInt(document.getElementById("CO5_15").value)+
-    parseInt(document.getElementById("CO6_15").value))/6;
-    window.alert(avg_co15)
-    document.getElementById("id_avg_co15").innerHTML=avg_co15;
+    var avg_co14 = (parseInt(document.getElementById("CO1_14").value) +
+      parseInt(document.getElementById("CO2_14").value) +
+      parseInt(document.getElementById("CO3_14").value) +
+      parseInt(document.getElementById("CO4_14").value) +
+      parseInt(document.getElementById("CO5_14").value) +
+      parseInt(document.getElementById("CO6_14").value)) / 6;
+    document.getElementById("id_avg_co14").innerHTML = avg_co14;
 
-    var avg_co16=(parseInt(document.getElementById("CO1_16").value)+
-    parseInt(document.getElementById("CO2_16").value)+
-    parseInt(document.getElementById("CO3_16").value)+
-    parseInt(document.getElementById("CO4_16").value)+
-    parseInt(document.getElementById("CO5_16").value)+
-    parseInt(document.getElementById("CO6_16").value))/6;
-    window.alert(avg_co16)
-    document.getElementById("id_avg_co16").innerHTML=avg_co16;
+    var avg_co15 = (parseInt(document.getElementById("CO1_15").value) +
+      parseInt(document.getElementById("CO2_15").value) +
+      parseInt(document.getElementById("CO3_15").value) +
+      parseInt(document.getElementById("CO4_15").value) +
+      parseInt(document.getElementById("CO5_15").value) +
+      parseInt(document.getElementById("CO6_15").value)) / 6;
+    document.getElementById("id_avg_co15").innerHTML = avg_co15;
+
+    var avg_co16 = (parseInt(document.getElementById("CO1_16").value) +
+      parseInt(document.getElementById("CO2_16").value) +
+      parseInt(document.getElementById("CO3_16").value) +
+      parseInt(document.getElementById("CO4_16").value) +
+      parseInt(document.getElementById("CO5_16").value) +
+      parseInt(document.getElementById("CO6_16").value)) / 6;
+    document.getElementById("id_avg_co16").innerHTML = avg_co16;
   }
   addUser = e => {
     e.preventDefault();
