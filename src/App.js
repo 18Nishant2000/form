@@ -618,7 +618,7 @@ class App extends React.Component {
               </Row>
               <br />
               <div align="center" >
-                <Button variant="primary" type="submit" >
+                <Button variant="primary">
                   Calculate Average
                 </Button>
               </div>
@@ -628,45 +628,45 @@ class App extends React.Component {
               <Form.Label className="text-white"><h3><b>Average of non-zeros entry in following table. </b></h3> </Form.Label>
               <Row>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="1" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="2" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="3" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="4" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="5" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="6" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
 
               </Row>
               <br />
               <Row>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="7" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="8" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="10" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="11" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="12" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
 
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="13" />
+                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0" />
                 </Col>
               </Row>
               <br />
