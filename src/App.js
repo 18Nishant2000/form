@@ -276,10 +276,10 @@ class App extends React.Component {
               <Form.Label className="text-white">CO1</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" id="CO1_1"/>
+                  <Form.Control type="number" id="CO1_1" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO1_2"/>
+                  <Form.Control type="number" id="CO1_2" />
                 </Col>
                 <Col>
                   <Form.Control type="number" id="CO1_3" />
@@ -306,25 +306,25 @@ class App extends React.Component {
                   <Form.Control type="number" id="CO1_9" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO1_10"  />
+                  <Form.Control type="number" id="CO1_10" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO1_11"  />
+                  <Form.Control type="number" id="CO1_11" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO1_12"  />
+                  <Form.Control type="number" id="CO1_12" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO1_13"  />
+                  <Form.Control type="number" id="CO1_13" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO1_14"  />
+                  <Form.Control type="number" id="CO1_14" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO1_15"  />
+                  <Form.Control type="number" id="CO1_15" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO1_16"  />
+                  <Form.Control type="number" id="CO1_16" />
                 </Col>
               </Row>
             </FormGroup>
@@ -333,10 +333,10 @@ class App extends React.Component {
               <Form.Label className="text-white">CO2</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" id="CO2_1"/>
+                  <Form.Control type="number" id="CO2_1" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO2_2"/>
+                  <Form.Control type="number" id="CO2_2" />
                 </Col>
                 <Col>
                   <Form.Control type="number" id="CO2_3" />
@@ -363,25 +363,25 @@ class App extends React.Component {
                   <Form.Control type="number" id="CO2_9" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO2_10"  />
+                  <Form.Control type="number" id="CO2_10" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO2_11"  />
+                  <Form.Control type="number" id="CO2_11" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO2_12"  />
+                  <Form.Control type="number" id="CO2_12" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO2_13"  />
+                  <Form.Control type="number" id="CO2_13" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO2_14"  />
+                  <Form.Control type="number" id="CO2_14" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO2_15"  />
+                  <Form.Control type="number" id="CO2_15" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO2_16"  />
+                  <Form.Control type="number" id="CO2_16" />
                 </Col>
               </Row>
             </FormGroup>
@@ -391,10 +391,10 @@ class App extends React.Component {
               <Form.Label className="text-white">CO3</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" id="CO3_1"/>
+                  <Form.Control type="number" id="CO3_1" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO3_2"/>
+                  <Form.Control type="number" id="CO3_2" />
                 </Col>
                 <Col>
                   <Form.Control type="number" id="CO3_3" />
@@ -421,25 +421,25 @@ class App extends React.Component {
                   <Form.Control type="number" id="CO3_9" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO3_10"  />
+                  <Form.Control type="number" id="CO3_10" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO3_11"  />
+                  <Form.Control type="number" id="CO3_11" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO3_12"  />
+                  <Form.Control type="number" id="CO3_12" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO3_13"  />
+                  <Form.Control type="number" id="CO3_13" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO3_14"  />
+                  <Form.Control type="number" id="CO3_14" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO3_15"  />
+                  <Form.Control type="number" id="CO3_15" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO3_16"  />
+                  <Form.Control type="number" id="CO3_16" />
                 </Col>
               </Row>
             </FormGroup>
@@ -449,10 +449,10 @@ class App extends React.Component {
               <Form.Label className="text-white">CO4</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" id="CO4_1"/>
+                  <Form.Control type="number" id="CO4_1" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO4_2"/>
+                  <Form.Control type="number" id="CO4_2" />
                 </Col>
                 <Col>
                   <Form.Control type="number" id="CO4_3" />
@@ -479,25 +479,25 @@ class App extends React.Component {
                   <Form.Control type="number" id="CO4_9" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO4_10"  />
+                  <Form.Control type="number" id="CO4_10" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO4_11"  />
+                  <Form.Control type="number" id="CO4_11" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO4_12"  />
+                  <Form.Control type="number" id="CO4_12" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO4_13"  />
+                  <Form.Control type="number" id="CO4_13" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO4_14"  />
+                  <Form.Control type="number" id="CO4_14" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO4_15"  />
+                  <Form.Control type="number" id="CO4_15" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO4_16"  />
+                  <Form.Control type="number" id="CO4_16" />
                 </Col>
               </Row>
             </FormGroup>
@@ -507,10 +507,10 @@ class App extends React.Component {
               <Form.Label className="text-white">CO5</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" id="CO5_1"/>
+                  <Form.Control type="number" id="CO5_1" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO5_2"/>
+                  <Form.Control type="number" id="CO5_2" />
                 </Col>
                 <Col>
                   <Form.Control type="number" id="CO5_3" />
@@ -537,25 +537,25 @@ class App extends React.Component {
                   <Form.Control type="number" id="CO5_9" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO5_10"  />
+                  <Form.Control type="number" id="CO5_10" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO5_11"  />
+                  <Form.Control type="number" id="CO5_11" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO5_12"  />
+                  <Form.Control type="number" id="CO5_12" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO5_13"  />
+                  <Form.Control type="number" id="CO5_13" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO5_14"  />
+                  <Form.Control type="number" id="CO5_14" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO5_15"  />
+                  <Form.Control type="number" id="CO5_15" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO5_16"  />
+                  <Form.Control type="number" id="CO5_16" />
                 </Col>
               </Row>
             </FormGroup>
@@ -565,10 +565,10 @@ class App extends React.Component {
               <Form.Label className="text-white">CO6</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" id="CO6_1"/>
+                  <Form.Control type="number" id="CO6_1" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO6_2"/>
+                  <Form.Control type="number" id="CO6_2" />
                 </Col>
                 <Col>
                   <Form.Control type="number" id="CO6_3" />
@@ -595,28 +595,28 @@ class App extends React.Component {
                   <Form.Control type="number" id="CO6_9" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO6_10"  />
+                  <Form.Control type="number" id="CO6_10" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO6_11"  />
+                  <Form.Control type="number" id="CO6_11" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO6_12"  />
+                  <Form.Control type="number" id="CO6_12" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO6_13"  />
+                  <Form.Control type="number" id="CO6_13" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO6_14"  />
+                  <Form.Control type="number" id="CO6_14" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO6_15"  />
+                  <Form.Control type="number" id="CO6_15" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO6_16"  />
+                  <Form.Control type="number" id="CO6_16" />
                 </Col>
               </Row>
-              <br/>
+              <br />
               <div align="center" >
                 <Button variant="primary" type="submit" >
                   Calculate Average
