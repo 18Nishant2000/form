@@ -52,90 +52,90 @@ class App extends React.Component {
       CO1_TEMP_15: document.getElementById("CO1_15").value,
       CO1_TEMP_16: document.getElementById("CO1_16").value,
 
-      // CO2_TEMP_1: document.getElementById("CO2_1").value,
-      // CO2_TEMP_2: document.getElementById("CO2_2").value,
-      // CO2_TEMP_3: document.getElementById("CO2_3").value,
-      // CO2_TEMP_4: document.getElementById("CO2_4").value,
-      // CO2_TEMP_5: document.getElementById("CO2_5").value,
-      // CO2_TEMP_6: document.getElementById("CO2_6").value,
-      // CO2_TEMP_7: document.getElementById("CO2_7").value,
-      // CO2_TEMP_8: document.getElementById("CO2_8").value,
-      // CO2_TEMP_9: document.getElementById("CO2_9").value,
-      // CO2_TEMP_10: document.getElementById("CO2_10").value,
-      // CO2_TEMP_11: document.getElementById("CO2_11").value,
-      // CO2_TEMP_12: document.getElementById("CO2_12").value,
-      // CO2_TEMP_13: document.getElementById("CO2_13").value,
-      // CO2_TEMP_14: document.getElementById("CO2_14").value,
-      // CO2_TEMP_15: document.getElementById("CO2_15").value,
-      // CO2_TEMP_16: document.getElementById("CO2_16").value,
+      CO2_TEMP_1: document.getElementById("CO2_1").value,
+      CO2_TEMP_2: document.getElementById("CO2_2").value,
+      CO2_TEMP_3: document.getElementById("CO2_3").value,
+      CO2_TEMP_4: document.getElementById("CO2_4").value,
+      CO2_TEMP_5: document.getElementById("CO2_5").value,
+      CO2_TEMP_6: document.getElementById("CO2_6").value,
+      CO2_TEMP_7: document.getElementById("CO2_7").value,
+      CO2_TEMP_8: document.getElementById("CO2_8").value,
+      CO2_TEMP_9: document.getElementById("CO2_9").value,
+      CO2_TEMP_10: document.getElementById("CO2_10").value,
+      CO2_TEMP_11: document.getElementById("CO2_11").value,
+      CO2_TEMP_12: document.getElementById("CO2_12").value,
+      CO2_TEMP_13: document.getElementById("CO2_13").value,
+      CO2_TEMP_14: document.getElementById("CO2_14").value,
+      CO2_TEMP_15: document.getElementById("CO2_15").value,
+      CO2_TEMP_16: document.getElementById("CO2_16").value,
 
-      // CO3_TEMP_1: document.getElementById("CO3_1").value,
-      // CO3_TEMP_2: document.getElementById("CO3_2").value,
-      // CO3_TEMP_3: document.getElementById("CO3_3").value,
-      // CO3_TEMP_4: document.getElementById("CO3_4").value,
-      // CO3_TEMP_5: document.getElementById("CO3_5").value,
-      // CO3_TEMP_6: document.getElementById("CO3_6").value,
-      // CO3_TEMP_7: document.getElementById("CO3_7").value,
-      // CO3_TEMP_8: document.getElementById("CO3_8").value,
-      // CO3_TEMP_9: document.getElementById("CO3_9").value,
-      // CO3_TEMP_10: document.getElementById("CO3_10").value,
-      // CO3_TEMP_11: document.getElementById("CO3_11").value,
-      // CO3_TEMP_12: document.getElementById("CO3_12").value,
-      // CO3_TEMP_13: document.getElementById("CO3_13").value,
-      // CO3_TEMP_14: document.getElementById("CO3_14").value,
-      // CO3_TEMP_15: document.getElementById("CO3_15").value,
-      // CO3_TEMP_16: document.getElementById("CO3_16").value,
+      CO3_TEMP_1: document.getElementById("CO3_1").value,
+      CO3_TEMP_2: document.getElementById("CO3_2").value,
+      CO3_TEMP_3: document.getElementById("CO3_3").value,
+      CO3_TEMP_4: document.getElementById("CO3_4").value,
+      CO3_TEMP_5: document.getElementById("CO3_5").value,
+      CO3_TEMP_6: document.getElementById("CO3_6").value,
+      CO3_TEMP_7: document.getElementById("CO3_7").value,
+      CO3_TEMP_8: document.getElementById("CO3_8").value,
+      CO3_TEMP_9: document.getElementById("CO3_9").value,
+      CO3_TEMP_10: document.getElementById("CO3_10").value,
+      CO3_TEMP_11: document.getElementById("CO3_11").value,
+      CO3_TEMP_12: document.getElementById("CO3_12").value,
+      CO3_TEMP_13: document.getElementById("CO3_13").value,
+      CO3_TEMP_14: document.getElementById("CO3_14").value,
+      CO3_TEMP_15: document.getElementById("CO3_15").value,
+      CO3_TEMP_16: document.getElementById("CO3_16").value,
 
-      // CO4_TEMP_1: document.getElementById("CO4_1").value,
-      // CO4_TEMP_2: document.getElementById("CO4_2").value,
-      // CO4_TEMP_3: document.getElementById("CO4_3").value,
-      // CO4_TEMP_4: document.getElementById("CO4_4").value,
-      // CO4_TEMP_5: document.getElementById("CO4_5").value,
-      // CO4_TEMP_6: document.getElementById("CO4_6").value,
-      // CO4_TEMP_7: document.getElementById("CO4_7").value,
-      // CO4_TEMP_8: document.getElementById("CO4_8").value,
-      // CO4_TEMP_9: document.getElementById("CO4_9").value,
-      // CO4_TEMP_10: document.getElementById("CO4_10").value,
-      // CO4_TEMP_11: document.getElementById("CO4_11").value,
-      // CO4_TEMP_12: document.getElementById("CO4_12").value,
-      // CO4_TEMP_13: document.getElementById("CO4_13").value,
-      // CO4_TEMP_14: document.getElementById("CO4_14").value,
-      // CO4_TEMP_15: document.getElementById("CO4_15").value,
-      // CO4_TEMP_16: document.getElementById("CO4_16").value,
+      CO4_TEMP_1: document.getElementById("CO4_1").value,
+      CO4_TEMP_2: document.getElementById("CO4_2").value,
+      CO4_TEMP_3: document.getElementById("CO4_3").value,
+      CO4_TEMP_4: document.getElementById("CO4_4").value,
+      CO4_TEMP_5: document.getElementById("CO4_5").value,
+      CO4_TEMP_6: document.getElementById("CO4_6").value,
+      CO4_TEMP_7: document.getElementById("CO4_7").value,
+      CO4_TEMP_8: document.getElementById("CO4_8").value,
+      CO4_TEMP_9: document.getElementById("CO4_9").value,
+      CO4_TEMP_10: document.getElementById("CO4_10").value,
+      CO4_TEMP_11: document.getElementById("CO4_11").value,
+      CO4_TEMP_12: document.getElementById("CO4_12").value,
+      CO4_TEMP_13: document.getElementById("CO4_13").value,
+      CO4_TEMP_14: document.getElementById("CO4_14").value,
+      CO4_TEMP_15: document.getElementById("CO4_15").value,
+      CO4_TEMP_16: document.getElementById("CO4_16").value,
 
-      // CO5_TEMP_1: document.getElementById("CO5_1").value,
-      // CO5_TEMP_2: document.getElementById("CO5_2").value,
-      // CO5_TEMP_3: document.getElementById("CO5_3").value,
-      // CO5_TEMP_4: document.getElementById("CO5_4").value,
-      // CO5_TEMP_5: document.getElementById("CO5_5").value,
-      // CO5_TEMP_6: document.getElementById("CO5_6").value,
-      // CO5_TEMP_7: document.getElementById("CO5_7").value,
-      // CO5_TEMP_8: document.getElementById("CO5_8").value,
-      // CO5_TEMP_9: document.getElementById("CO5_9").value,
-      // CO5_TEMP_10: document.getElementById("CO5_10").value,
-      // CO5_TEMP_11: document.getElementById("CO5_11").value,
-      // CO5_TEMP_12: document.getElementById("CO5_12").value,
-      // CO5_TEMP_13: document.getElementById("CO5_13").value,
-      // CO5_TEMP_14: document.getElementById("CO5_14").value,
-      // CO5_TEMP_15: document.getElementById("CO5_15").value,
-      // CO5_TEMP_16: document.getElementById("CO5_16").value,
+      CO5_TEMP_1: document.getElementById("CO5_1").value,
+      CO5_TEMP_2: document.getElementById("CO5_2").value,
+      CO5_TEMP_3: document.getElementById("CO5_3").value,
+      CO5_TEMP_4: document.getElementById("CO5_4").value,
+      CO5_TEMP_5: document.getElementById("CO5_5").value,
+      CO5_TEMP_6: document.getElementById("CO5_6").value,
+      CO5_TEMP_7: document.getElementById("CO5_7").value,
+      CO5_TEMP_8: document.getElementById("CO5_8").value,
+      CO5_TEMP_9: document.getElementById("CO5_9").value,
+      CO5_TEMP_10: document.getElementById("CO5_10").value,
+      CO5_TEMP_11: document.getElementById("CO5_11").value,
+      CO5_TEMP_12: document.getElementById("CO5_12").value,
+      CO5_TEMP_13: document.getElementById("CO5_13").value,
+      CO5_TEMP_14: document.getElementById("CO5_14").value,
+      CO5_TEMP_15: document.getElementById("CO5_15").value,
+      CO5_TEMP_16: document.getElementById("CO5_16").value,
 
-      // CO6_TEMP_1: document.getElementById("CO6_1").value,
-      // CO6_TEMP_2: document.getElementById("CO6_2").value,
-      // CO6_TEMP_3: document.getElementById("CO6_3").value,
-      // CO6_TEMP_4: document.getElementById("CO6_4").value,
-      // CO6_TEMP_5: document.getElementById("CO6_5").value,
-      // CO6_TEMP_6: document.getElementById("CO6_6").value,
-      // CO6_TEMP_7: document.getElementById("CO6_7").value,
-      // CO6_TEMP_8: document.getElementById("CO6_8").value,
-      // CO6_TEMP_9: document.getElementById("CO6_9").value,
-      // CO6_TEMP_10: document.getElementById("CO6_10").value,
-      // CO6_TEMP_11: document.getElementById("CO6_11").value,
-      // CO6_TEMP_12: document.getElementById("CO6_12").value,
-      // CO6_TEMP_13: document.getElementById("CO6_13").value,
-      // CO6_TEMP_14: document.getElementById("CO6_14").value,
-      // CO6_TEMP_15: document.getElementById("CO6_15").value,
-      // CO6_TEMP_16: document.getElementById("CO6_16").value
+      CO6_TEMP_1: document.getElementById("CO6_1").value,
+      CO6_TEMP_2: document.getElementById("CO6_2").value,
+      CO6_TEMP_3: document.getElementById("CO6_3").value,
+      CO6_TEMP_4: document.getElementById("CO6_4").value,
+      CO6_TEMP_5: document.getElementById("CO6_5").value,
+      CO6_TEMP_6: document.getElementById("CO6_6").value,
+      CO6_TEMP_7: document.getElementById("CO6_7").value,
+      CO6_TEMP_8: document.getElementById("CO6_8").value,
+      CO6_TEMP_9: document.getElementById("CO6_9").value,
+      CO6_TEMP_10: document.getElementById("CO6_10").value,
+      CO6_TEMP_11: document.getElementById("CO6_11").value,
+      CO6_TEMP_12: document.getElementById("CO6_12").value,
+      CO6_TEMP_13: document.getElementById("CO6_13").value,
+      CO6_TEMP_14: document.getElementById("CO6_14").value,
+      CO6_TEMP_15: document.getElementById("CO6_15").value,
+      CO6_TEMP_16: document.getElementById("CO6_16").value
 
     });
   };
@@ -329,16 +329,14 @@ class App extends React.Component {
               </Row>
             </FormGroup>
 
-
-
             <FormGroup>
               <Form.Label className="text-white">CO2</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" id="CO2_1" />
+                  <Form.Control type="number" id="CO2_1"/>
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO2_2" />
+                  <Form.Control type="number" id="CO2_2"/>
                 </Col>
                 <Col>
                   <Form.Control type="number" id="CO2_3" />
@@ -353,107 +351,108 @@ class App extends React.Component {
                   <Form.Control type="number" id="CO2_6" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO2_6" />
+                  <Form.Control type="number" id="CO2_7" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO2_6" />
+                  <Form.Control type="number" id="CO2_8" />
                 </Col>
               </Row>
               <br />
               <Row>
                 <Col>
-                  <Form.Control type="number" id="C02_7" />
+                  <Form.Control type="number" id="CO2_9" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C02_8"  />
+                  <Form.Control type="number" id="CO2_10"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C02_9"  />
+                  <Form.Control type="number" id="CO2_11"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C02_10"  />
+                  <Form.Control type="number" id="CO2_12"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C02_11"  />
+                  <Form.Control type="number" id="CO2_13"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C02_12"  />
+                  <Form.Control type="number" id="CO2_14"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C02_13"  />
+                  <Form.Control type="number" id="CO2_15"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C02_14"  />
+                  <Form.Control type="number" id="CO2_16"  />
+                </Col>
+              </Row>
+            </FormGroup>
+
+
+            <FormGroup>
+              <Form.Label className="text-white">CO3</Form.Label>
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="CO3_1"/>
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_2"/>
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_3" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_4" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_5" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_6" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_7" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_8" />
                 </Col>
               </Row>
               <br />
-
-              <FormGroup>
-                <Form.Label className="text-white">CO3</Form.Label>
-                <Row>
-                  <Col>
-                    <Form.Control type="number" id="CO3_1" />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="CO3_2" />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="CO3_3" />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="CO3_4" />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="CO3_5" />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="CO3_6" />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="CO3_7" />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="CO3_8" />
-                  </Col>
-                </Row>
-                <br />
-                <Row>
-                  <Col>
-                    <Form.Control type="number" id="C03_9" />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="C03_10"  />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="C03_11"  />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="C03_12"  />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="C03_13"  />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="C03_14"  />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="C03_15"  />
-                  </Col>
-                  <Col>
-                    <Form.Control type="number" id="C01_16"  />
-                  </Col>
-                </Row>
-              </FormGroup>
-
+              <Row>
+                <Col>
+                  <Form.Control type="number" id="CO3_9" />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_10"  />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_11"  />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_12"  />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_13"  />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_14"  />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_15"  />
+                </Col>
+                <Col>
+                  <Form.Control type="number" id="CO3_16"  />
+                </Col>
+              </Row>
             </FormGroup>
+
+
             <FormGroup>
               <Form.Label className="text-white">CO4</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" id="CO4_1" />
+                  <Form.Control type="number" id="CO4_1"/>
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO4_2" />
+                  <Form.Control type="number" id="CO4_2"/>
                 </Col>
                 <Col>
                   <Form.Control type="number" id="CO4_3" />
@@ -477,39 +476,41 @@ class App extends React.Component {
               <br />
               <Row>
                 <Col>
-                  <Form.Control type="number" id="C04_9" />
+                  <Form.Control type="number" id="CO4_9" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C04_10"  />
+                  <Form.Control type="number" id="CO4_10"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C04_11"  />
+                  <Form.Control type="number" id="CO4_11"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C04_12"  />
+                  <Form.Control type="number" id="CO4_12"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C04_13"  />
+                  <Form.Control type="number" id="CO4_13"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C04_14"  />
+                  <Form.Control type="number" id="CO4_14"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C04_15"  />
+                  <Form.Control type="number" id="CO4_15"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C04_16"  />
+                  <Form.Control type="number" id="CO4_16"  />
                 </Col>
               </Row>
             </FormGroup>
+
+
             <FormGroup>
               <Form.Label className="text-white">CO5</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" id="CO5_1" />
+                  <Form.Control type="number" id="CO5_1"/>
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO5_2" />
+                  <Form.Control type="number" id="CO5_2"/>
                 </Col>
                 <Col>
                   <Form.Control type="number" id="CO5_3" />
@@ -533,39 +534,41 @@ class App extends React.Component {
               <br />
               <Row>
                 <Col>
-                  <Form.Control type="number" id="C05_9" />
+                  <Form.Control type="number" id="CO5_9" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C05_10"  />
+                  <Form.Control type="number" id="CO5_10"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C05_11"  />
+                  <Form.Control type="number" id="CO5_11"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C05_12"  />
+                  <Form.Control type="number" id="CO5_12"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C05_13"  />
+                  <Form.Control type="number" id="CO5_13"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C05_14"  />
+                  <Form.Control type="number" id="CO5_14"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C05_15"  />
+                  <Form.Control type="number" id="CO5_15"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C05_16"  />
+                  <Form.Control type="number" id="CO5_16"  />
                 </Col>
               </Row>
             </FormGroup>
+
+
             <FormGroup>
               <Form.Label className="text-white">CO6</Form.Label>
               <Row>
                 <Col>
-                  <Form.Control type="number" id="CO6_1" />
+                  <Form.Control type="number" id="CO6_1"/>
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="CO6_2" />
+                  <Form.Control type="number" id="CO6_2"/>
                 </Col>
                 <Col>
                   <Form.Control type="number" id="CO6_3" />
@@ -589,31 +592,31 @@ class App extends React.Component {
               <br />
               <Row>
                 <Col>
-                  <Form.Control type="number" id="C06_9" />
+                  <Form.Control type="number" id="CO6_9" />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C06_10"  />
+                  <Form.Control type="number" id="CO6_10"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C06_11"  />
+                  <Form.Control type="number" id="CO6_11"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C06_12"  />
+                  <Form.Control type="number" id="CO6_12"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C06_13"  />
+                  <Form.Control type="number" id="CO6_13"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C06_14"  />
+                  <Form.Control type="number" id="CO6_14"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C06_15"  />
+                  <Form.Control type="number" id="CO6_15"  />
                 </Col>
                 <Col>
-                  <Form.Control type="number" id="C06_16"  />
+                  <Form.Control type="number" id="CO6_16"  />
                 </Col>
               </Row>
-              <br />
+              <br/>
               <div align="center" >
                 <Button variant="primary" type="submit" >
                   Calculate Average
