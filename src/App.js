@@ -8,6 +8,7 @@ import FormGroup from 'react-bootstrap/FormGroup';
 import firebase from './firbase.js'
 
 class App extends React.Component {
+  
   avg = () => {
     var avg_co1 = (parseInt(document.getElementById("CO1_1").value) +
       parseInt(document.getElementById("CO2_1").value) +
@@ -266,22 +267,22 @@ class App extends React.Component {
       CO6_TEMP_15: document.getElementById("CO6_15").value,
       CO6_TEMP_16: document.getElementById("CO6_16").value,
 
-      avg_co1: document.getElementById("id_avg_co1").value,
-      avg_co2: document.getElementById("id_avg_co2").value,
-      avg_co3: document.getElementById("id_avg_co3").value,
-      avg_co4: document.getElementById("id_avg_co4").value,
-      avg_co5: document.getElementById("id_avg_co5").value,
-      avg_co6: document.getElementById("id_avg_co6").value,
-      avg_co7: document.getElementById("id_avg_co7").value,
-      avg_co8: document.getElementById("id_avg_co8").value,
-      avg_co9: document.getElementById("id_avg_co9").value,
-      avg_co10: document.getElementById("id_avg_co10").value,
-      avg_co11: document.getElementById("id_avg_co11").value,
-      avg_co12: document.getElementById("id_avg_co12").value,
-      avg_co13: document.getElementById("id_avg_co13").value,
-      avg_co14: document.getElementById("id_avg_co14").value,
-      avg_co15: document.getElementById("id_avg_co15").value,
-      avg_co16: document.getElementById("id_avg_co16").value
+      avg_co1: document.getElementById("id_avg_co1").innerHTML,
+      avg_co2: document.getElementById("id_avg_co2").innerHTML,
+      avg_co3: document.getElementById("id_avg_co3").innerHTML,
+      avg_co4: document.getElementById("id_avg_co4").innerHTML,
+      avg_co5: document.getElementById("id_avg_co5").innerHTML,
+      avg_co6: document.getElementById("id_avg_co6").innerHTML,
+      avg_co7: document.getElementById("id_avg_co7").innerHTML,
+      avg_co8: document.getElementById("id_avg_co8").innerHTML,
+      avg_co9: document.getElementById("id_avg_co9").innerHTML,
+      avg_co10: document.getElementById("id_avg_co10").innerHTML,
+      avg_co11: document.getElementById("id_avg_co11").innerHTML,
+      avg_co12: document.getElementById("id_avg_co12").innerHTML,
+      avg_co13: document.getElementById("id_avg_co13").innerHTML,
+      avg_co14: document.getElementById("id_avg_co14").innerHTML,
+      avg_co15: document.getElementById("id_avg_co15").innerHTML,
+      avg_co16: document.getElementById("id_avg_co16").innerHTML
 
     });
   };
