@@ -264,7 +264,24 @@ class App extends React.Component {
       CO6_TEMP_13: document.getElementById("CO6_13").value,
       CO6_TEMP_14: document.getElementById("CO6_14").value,
       CO6_TEMP_15: document.getElementById("CO6_15").value,
-      CO6_TEMP_16: document.getElementById("CO6_16").value
+      CO6_TEMP_16: document.getElementById("CO6_16").value,
+
+      avg_co1:document.getElementById("id_avg_co1").value,
+      avg_co2:document.getElementById("id_avg_co2").value,
+      avg_co3:document.getElementById("id_avg_co3").value,
+      avg_co4:document.getElementById("id_avg_co4").value,
+      avg_co5:document.getElementById("id_avg_co5").value,
+      avg_co6:document.getElementById("id_avg_co6").value,
+      avg_co7:document.getElementById("id_avg_co7").value,
+      avg_co8:document.getElementById("id_avg_co8").value,
+      avg_co9:document.getElementById("id_avg_co9").value,
+      avg_co10:document.getElementById("id_avg_co10").value,
+      avg_co11:document.getElementById("id_avg_co11").value,
+      avg_co12:document.getElementById("id_avg_co12").value,
+      avg_co13:document.getElementById("id_avg_co13").value,
+      avg_co14:document.getElementById("id_avg_co14").value,
+      avg_co15:document.getElementById("id_avg_co15").value,
+      avg_co16:document.getElementById("id_avg_co16").value
 
     });
   };
@@ -367,13 +384,13 @@ class App extends React.Component {
             <Form.Group controlId="formBasicCheckbox">
               <Row>
                 <Col>
-                  <Form.Check type="checkbox" label="Jury" className="text-white" />
+                  <Form.Check type="checkbox" label="Jury" className="text-white" id="practical" />
                 </Col>
                 <Col>
-                  <Form.Check type="checkbox" label="Practical" className="text-white" />
+                  <Form.Check type="checkbox" label="Practical" className="text-white" id="jury"/>
                 </Col>
                 <Col>
-                  <Form.Check type="checkbox" label="Viva" className="text-white" />
+                  <Form.Check type="checkbox" label="Viva" className="text-white" id="viva"/>
                 </Col>
               </Row>
             </Form.Group>
@@ -382,13 +399,13 @@ class App extends React.Component {
               <Form.Label >Weightage Distribution </Form.Label>
               <Row >
                 <Col >
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="60% - CA" />
+                  <Form.Control align="center" className="text-white" plaintext defaultValue="60% - CA" />
                 </Col>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="0% -  MTE" />
+                  <Form.Control align="center" className="text-white" plaintext defaultValue="0% -  MTE" />
                 </Col>
                 <Col>
-                  <Form.Control align="center" className="text-white" plaintext readOnly defaultValue="40% - ETE" />
+                  <Form.Control align="center" className="text-white" plaintext defaultValue="40% - ETE" />
                 </Col>
               </Row>
             </FormGroup>
