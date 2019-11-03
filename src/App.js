@@ -27,8 +27,7 @@ function onsave() {
   var Unit2 = document.getElementById("Unit2").value;
   var Unit3 = document.getElementById("Unit3").value;
   var Unit4 = document.getElementById("Unit4").value;
-
-  // PO AND POS
+  
   var CO1_TEMP_1 = document.getElementById("CO1_1").value;
   var CO1_TEMP_2 = document.getElementById("CO1_2").value;
   var CO1_TEMP_3 = document.getElementById("CO1_3").value;
@@ -131,7 +130,6 @@ function onsave() {
   var CO6_TEMP_15 = document.getElementById("CO6_15").value;
   var CO6_TEMP_16 = document.getElementById("CO6_16").value;
   
-
   window.alert(school + " " + program + " " + branch + " " + course_code + " " + course_title + " " + credits + " " + L + " " + T + " " + P + " " + course_status + " " + objectives + " " + C01 + " " + C02 + " " + C03 + " " + C04 + " " + desc_course + " " + Unit1 + " " + Unit2 + " " + Unit3 + " " + Unit4 + " " );
 }
 function App() {
