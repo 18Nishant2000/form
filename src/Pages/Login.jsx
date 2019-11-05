@@ -1,7 +1,7 @@
 import React from 'react';
 import Form from "react-bootstrap/Form"
 import Button from "react-bootstrap/Button"
-import App from "./App"
+import App from "../App"
 import {
     Link
 } from "react-router-dom";
@@ -23,7 +23,7 @@ export default function Login() {
                     <div align="center" >
                         <Button variant="primary" onClick={""}>
                            
-                                <Link to="/App" >Login </Link>
+                                <Link to="/FormPage" >Login </Link>
                           
                         </Button>
                     </div>
