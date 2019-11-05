@@ -1,8 +1,13 @@
 import React from 'react';
 import Form from "react-bootstrap/Form"
 import Button from "react-bootstrap/Button"
-import "./Glass.css"
-
+import App from "./App"
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 export default function Login() {
     return (
         <div className="container">
@@ -16,15 +21,17 @@ export default function Login() {
                     </Form.Group>
                     <Form.Group >
                         <Form.Label className="text-white">Password</Form.Label>
-                        <Form.Control placeholder="Passowrd" id="passoword" />
+                        <Form.Control type="password" placeholder="Password" id="passoword" />
                     </Form.Group>
                     <div align="center" >
                         <Button variant="primary" onClick={""}>
-                            Login
+                            <Router>
+                                <Link to="/App" >Login </Link>
+                            </Router>
                         </Button>
                     </div>
                 </Form>
             </div>
-        </div>
+        </div >
     );
 }
