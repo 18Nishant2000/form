@@ -1,11 +1,11 @@
 import React from 'react';
 import Button from "react-bootstrap/Button"
-import "./Glass.css"
+import "../Glass.css"
 import Form from "react-bootstrap/Form"
 import Row from "react-bootstrap/Row"
 import Col from 'react-bootstrap/Col'
 import FormGroup from 'react-bootstrap/FormGroup';
-import firebase from './firbase.js'
+import firebase from '../firbase.js'
 
 class App extends React.Component {
 

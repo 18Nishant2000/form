@@ -1,24 +1,13 @@
 import React, { Component } from 'react';
-import Login from "./Login"
-import App from "./App"
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
-class Main extends Component {
+import Login from "./Pages/Login"
+import NotFoundPage from "./Pages/404"
+import App from "./Pages/App"
 
-    render() {
+export default function Appy() {
+
         return (
-            <Router>
-                <Switch>
-                    <Route exact path="/" Component={Login} />
-                    <Route exact path="/Form" Component={App} />
-                </Switch>
-            </Router>
+           <div >Use</div>
         );
+    
     }
-}
 
-export default Main;

@@ -3,9 +3,6 @@ import Form from "react-bootstrap/Form"
 import Button from "react-bootstrap/Button"
 import App from "./App"
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
 } from "react-router-dom";
 export default function Login() {
@@ -25,9 +22,9 @@ export default function Login() {
                     </Form.Group>
                     <div align="center" >
                         <Button variant="primary" onClick={""}>
-                            <Router>
+                           
                                 <Link to="/App" >Login </Link>
-                            </Router>
+                          
                         </Button>
                     </div>
                 </Form>
