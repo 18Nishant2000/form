@@ -1,11 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
   Route,
   Redirect,
-  Link,
   Switch
 } from "react-router-dom";
 import FormPage from "./Pages/Form";
@@ -14,8 +12,8 @@ import NotFoundPage from "./Pages/404";
 
 function App() {
   return (
-    <div className="App">HI!
-    <Router>
+    <div>
+      <Router>
         <Switch>
           <Route exact path="/" component={LoginPage} />
           <Route exact path="/FormPage" component={FormPage} />

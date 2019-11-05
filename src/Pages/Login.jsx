@@ -1,7 +1,6 @@
 import React from 'react';
 import Form from "react-bootstrap/Form"
 import Button from "react-bootstrap/Button"
-import App from "../App"
 import {
     Link
 } from "react-router-dom";
@@ -22,9 +21,9 @@ export default function Login() {
                     </Form.Group>
                     <div align="center" >
                         <Button variant="primary" onClick={""}>
-                           
-                                <Link to="/FormPage" >Login </Link>
-                          
+
+                            <Link style={{ textDecoration: 'none', color: 'white' }} to="/FormPage" >Login </Link>
+
                         </Button>
                     </div>
                 </Form>
