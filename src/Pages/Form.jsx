@@ -8,6 +8,15 @@ import FormGroup from 'react-bootstrap/FormGroup';
 import firebase from '../firbase.js'
 
 export default class FormPage extends React.Component {
+fun(){
+    const db = firebase.firestore();
+
+    db.collection("users").doc("auth").get().then((v)=>{
+      console.log(v);
+    }).catch((c)=>{
+      console.log(c);
+    })
+  }
 
   avg = () => {
     var avg_co1 = (parseInt(document.getElementById("CO1_1").value) +
@@ -138,6 +147,17 @@ export default class FormPage extends React.Component {
       parseInt(document.getElementById("CO6_16").value)) / 6;
     document.getElementById("id_avg_co16").innerHTML = avg_co16;
   }
+
+
+  retrieve=e => {
+    e.preventDefault();
+    const db = firebase.firestore();
+    db.settings({
+      timestampsInSnapshots: true
+    });
+   
+    }
+
   addUser = e => {
     e.preventDefault();
     const db = firebase.firestore();
