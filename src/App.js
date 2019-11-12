@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/" component={LoginPage} />
           <Route exact path="/FormPage" component={FormPage} />
           <Route exact path="/404" component={NotFoundPage} />
-          <Redirect to="/404" />
+          <Redirect to="/FormPage" />
         </Switch>
       </Router>
     </div>
