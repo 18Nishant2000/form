@@ -15,10 +15,10 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route exact path="/" component={LoginPage} />
-          <Route exact path="/FormPage" component={FormPage} />
+          <Route exact path="/" component={FormPage} />
+          {/*<Route exact path="/FormPage" component={FormPage} />*/}
           <Route exact path="/404" component={NotFoundPage} />
-          <Redirect to="/FormPage" />
+          <Redirect to="/404" component  = {NotFoundPage} />
         </Switch>
       </Router>
     </div>

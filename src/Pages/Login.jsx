@@ -16,15 +16,12 @@ export default class Login extends React.Component {
         e.preventDefault();
         var in_id = document.getElementById("ID").value;
         var in_pass = document.getElementById("p").value;
-        //window.alert(in_id+" "+in_pass);
         const db = firebase.firestore();
         db.collection("users").doc("auth").get().then((v) => {
             var id = v.data("id");
             var pass = v.data("pass");
             if (in_id === id && in_pass === pass) {
-                window.alert(in_id+" "+in_pass);
-                //window.alert(in_pass);
-                //window.open(form);
+                window.alert("Success");
                 this.setState({ flag: true })
             }
             else {
