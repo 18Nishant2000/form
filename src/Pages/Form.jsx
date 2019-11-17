@@ -310,7 +310,7 @@ fun(){
 
   render() {
     return (
-      <div className="container">
+      <div class="container2">
         <div className="mt-4 mb-4 mr-2 ml-2">
           <Form onSubmit={this.addUser}>
             <h2 className="text-white"><b>Syllabus for Theory Courses</b></h2> <hr />

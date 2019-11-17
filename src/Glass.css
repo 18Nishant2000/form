@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 
-.container {
+.container2 {
     
     width: 0rem;
     padding-top: 0.2cm;
@@ -25,7 +25,7 @@ body {
     
 }
 
-.container:before {
+.container2:before {
     content: "";
     position: absolute;
     background: inherit;
